@@ -1,0 +1,41 @@
+Cocktail Name,Ingredients,Taste,Ingredient_Break_Down,Weight
+Manhattan,"rye whiskey, sweet vermouth, angostura bitters","['spicy', 'smoky', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter']",['whiskey'],heavy
+Negroni,"gin, campari, sweet vermouth","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'citrusy']",['gin'],heavy
+Dry Martini,"gin, dry vermouth, orangebitters","['floral', 'herbal', 'spicy', 'floral', 'herbal', 'bitter']",['gin'],heavy
+Daiquiri,"light rum, lime juice, freshly squeezed, demerara sugar syrup","['sweet', 'fruity', 'citrusy', 'sour', 'sweet']",['rum'],light
+Old Fashioned,"sugar, angostura bitters, bourbon (or rye whiskey, if preferred)","['spicy', 'smoky', 'bitter', 'sweet']",['whiskey'],light
+Whiskey Sour,"bourbon, lemon juice, freshly squeezed, simple syrup, egg white (optional)","['spicy', 'smoky', 'creamy', 'citrusy', 'sour', 'sweet']","['whiskey', 'egg white']",light
+Tom Collins,"london dry gin, lemon juice, freshly squeezed, simple syrup, club soda, to top","['floral', 'herbal', 'spicy', 'carbonated', 'citrusy', 'sour', 'sweet']",['gin'],light
+Sazerac,"absinthe, to rinse, 1sugar cube, peychaud’s bitters, rye whiskey","['spicy', 'smoky', 'bitter', 'sweet']","['whiskey', 'absinthe']",light
+Paloma,"tequila, lime juice, freshly squeezed, grapefruit soda, chilled, to top, pinch of salt","['carbonated', 'citrusy', 'sour']",['tequila'],light
+Moscow Mule,"vodka, lime juice, freshly squeezed, ginger beer, chilled","['carbonated', 'spicy', 'citrusy', 'sour']",['vodka'],light
+Sidecar,"cognac, orange liqueur(such as cointreau), lemon juice, freshly squeezed","['fruity', 'sweet', 'spicy', 'citrusy', 'sweet', 'citrusy', 'sour']","['brandy', 'wine']",heavy
+Martinez,"gin, sweet vermouth, luxardo maraschino liqueur, angosturabitters","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'fruity', 'sour', 'bitter']",['gin'],heavy
+Pimm’s Cup,"pimm’s no. 1, lemon juice, freshly squeezed, ginger ale, to top","['citrusy', 'sweet', 'herbal', 'spicy', 'citrusy', 'sour']",[],heavy
+Pisco Sour,"pisco, lime juice, freshly squeezed, simple syrup, egg white","['fruity', 'sweet', 'spicy', 'creamy', 'citrusy', 'sour', 'sweet']","['brandy', 'wine', 'egg white']",light
+French 75,"gin, lemon juice, freshly squeezed, simple syrup, champagne (or othersparkling wine)","['floral', 'herbal', 'spicy', 'citrusy', 'sour', 'sweet']","['champagne', 'wine', 'gin']",light
+Mint Julep,"mint leaves, simple syrup, bourbon","['spicy', 'smoky', 'herbal', 'sweet']",['whiskey'],heavy
+Last Word,"gin, green chartreuse, maraschino liqueur, lime juice, freshly squeezed","['floral', 'herbal', 'spicy', 'floral', 'herbal', 'spicy', 'bitter', 'fruity', 'sour', 'citrusy', 'sour']",['gin'],heavy
+Irish Coffee,"irish whiskey, brown sugar, hotbrewed coffee, to top","['spicy', 'smoky', 'sweet']","['whiskey', 'coffee']",light
+Corpse Reviver No. 2,"absinthe, to rinse, london dry gin, lillet blanc, orange liqueur, lemon juice, freshly squeezed","['floral', 'herbal', 'spicy', 'citrusy', 'sweet', 'citrusy', 'sour']","['absinthe', 'gin']",heavy
+Mojito,"mint leaves, simple syrup, whiterum, lime juice, freshly squeezed, club soda, to top","['sweet', 'fruity', 'herbal', 'carbonated', 'citrusy', 'sour', 'sweet']",['rum'],light
+Gin Fizz,"gin, lemon juice, freshly squeezed, egg white, simple syrup","['floral', 'herbal', 'spicy', 'creamy', 'citrusy', 'sour', 'sweet']","['egg white', 'gin']",light
+Bloody Mary,"celery salt, lemon wedge, 1lime wedge, vodka, tomato juice, sprepared horseradish, tabasco sauce, worcestershire sauce, ground black pepper, smoked paprika","['citrusy', 'sour']",['vodka'],heavy
+Vodka Gimlet,"vodka, lime juice, freshly squeezed, simple syrup","['citrusy', 'sour', 'sweet']",['vodka'],light
+Margarita,"blanco tequila, orange liqueur, lime juice, freshly squeezed, agave syrup","['citrusy', 'sweet', 'citrusy', 'sour', 'sweet']",['tequila'],light
+White Russian,"vodka, coffee liqueur, heavy cream",['creamy'],"['vodka', 'coffee']",light
+Pina Colada,"rum, cream of coconut, pineapple juice, frozen pineapple, lime juice","['sweet', 'fruity', 'creamy', 'citrusy', 'sour']",['rum'],light
+Mai Tai,"aged rum, dark rum, orange liqueur, lime juice, simple syrup","['sweet', 'fruity', 'citrusy', 'sweet', 'citrusy', 'sour', 'sweet']",['rum'],light
+Gin Tonic,"gin, tonic","['floral', 'herbal', 'spicy']",['gin'],heavy
+Aperol Spritz,"sparkling wine, aperol, soda water",['carbonated'],['wine'],heavy
+Long Island Iced Tea,"vodka, rum, gin, tequila, triple sec, lemon juice, cola","['sweet', 'fruity', 'floral', 'herbal', 'spicy', 'citrusy', 'sweet', 'citrusy', 'sour']","['rum', 'vodka', 'tequila', 'gin']",heavy
+White Lady,"gin, orange liqueur, lemon juice, egg white","['floral', 'herbal', 'spicy', 'citrusy', 'sweet', 'creamy', 'citrusy', 'sour']","['egg white', 'gin']",light
+Cosmopolitan,"vodka, cointreau, lemon juice, cranberry juice","['citrusy', 'sweet', 'fruity', 'sweet', 'citrusy', 'sour']",['vodka'],heavy
+Zombie,"rum, lemon juice, falernum, grenadine, simple syrup, pineapple juice","['sweet', 'fruity', 'fruity', 'sweet', 'citrusy', 'sour', 'sweet']",['rum'],light
+Vodka Martini,"vodka, dry vermouth, orange bitters","['floral', 'herbal', 'bitter']",['vodka'],heavy
+Aviation,"gin, maraschino liqueur, lemon juice, creme de violette","['floral', 'herbal', 'spicy', 'bitter', 'fruity', 'sour', 'creamy', 'citrusy', 'sour']",['gin'],light
+Americano,"campari, sweet vermouth, club soda","['sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'citrusy', 'carbonated']",[],heavy
+Boulevardier,"bourbon, sweet vermouth, campari","['spicy', 'smoky', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'citrusy']",['whiskey'],heavy
+Penicillin,"blended scotch whiskey, lemon juice, honey-ginger syrup, islay single malt scotch whiskey","['spicy', 'smoky', 'spicy', 'citrusy', 'sour', 'sweet']",['whiskey'],light
+Dark 'n' Stormy,"dark rum, ginger beer","['sweet', 'fruity', 'carbonated', 'spicy']",['rum'],heavy
+God Father,"bourbon, amaretto","['spicy', 'smoky', 'sweet', 'nutty']",['whiskey'],heavy

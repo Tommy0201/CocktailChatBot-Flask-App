@@ -1,0 +1,2254 @@
+{
+  "Monkey Gland": {
+    "Ingredients": [
+      "50ml london dry gin",
+      "15ml absinthe",
+      "15ml grenadine",
+      "60ml orange juice"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin",
+      "absinthe"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Mitch Martini": {
+    "Ingredients": [
+      "50ml bison grass vodka",
+      "10ml peach liqueur",
+      "10ml passionfruit syrup",
+      "50ml apple juice"
+    ],
+    "Taste": [
+      "citrusy",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Painkiller": {
+    "Ingredients": [
+      "50ml pusser\u2019s navy strength rum",
+      "75ml pineapple juice",
+      "30ml orange juice",
+      "30ml coconut cream"
+    ],
+    "Taste": [
+      "sweet",
+      "citrusy",
+      "sweet",
+      "creamy",
+      "creamy",
+      "sweet",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "sweet",
+      "creamy",
+      "nutty"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Brandy Alexander": {
+    "Ingredients": [
+      "30ml brandy",
+      "25ml dark cr\u00e8me de cacao",
+      "50ml half/half (1:1 cream/milk)"
+    ],
+    "Taste": [
+      "creamy"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": ""
+  },
+  "Japanese Slipper": {
+    "Ingredients": [
+      "30ml midori",
+      "30ml triple sec",
+      "25ml lemon juice"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "sweet",
+      "fruity",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": ""
+  },
+  "Greyhound": {
+    "Ingredients": [
+      "50ml vodka/gin",
+      "75ml pink grapefruit juice"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [
+      "gin",
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Hedgerow Sling": {
+    "Ingredients": [
+      "25ml gin",
+      "25ml sloe gin",
+      "25ml lemon juice",
+      "10ml gomme",
+      "15ml cr\u00e8me de mure (laced)",
+      "dash soda"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "creamy",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Caiparissima": {
+    "Ingredients": [
+      "50ml rum",
+      "6 wedges lime",
+      "15ml demerara sugar syrup"
+    ],
+    "Taste": [
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Lynchburg Lemonade": {
+    "Ingredients": [
+      "35ml jack daniel\u2019s",
+      "25ml triple sec",
+      "25ml lemon juice",
+      "50ml lemonade"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "The Gold Record": {
+    "Ingredients": [
+      "25ml plantation pineapple rum",
+      "25ml apricot brandy",
+      "15ml vanilla syrup",
+      "25ml passionfruit juice",
+      "20ml lemon juice",
+      "soda top"
+    ],
+    "Taste": [
+      "sweet",
+      "carbonated",
+      "herbal",
+      "floral",
+      "citrusy",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "vanilla",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Tequila Sunrise": {
+    "Ingredients": [
+      "50ml tequila",
+      "75ml orange juice",
+      "15ml grenadine"
+    ],
+    "Taste": [
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "tequila"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "John Collins": {
+    "Ingredients": [
+      "50ml london dry gin",
+      "25ml lemon juice",
+      "15ml gomme",
+      "top soda"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Dubonnet": {
+    "Ingredients": [
+      "40ml gin",
+      "20ml dubonnet"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "herbal",
+      "spicy"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Sex On The Beach": {
+    "Ingredients": [
+      "35ml vodka",
+      "15ml peach schnapps",
+      "50ml cranberry juice",
+      "50ml orange juice"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "sweet",
+      "fruity",
+      "sour",
+      "bitter",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Lemon Drop": {
+    "Ingredients": [
+      "35ml vodka",
+      "15ml triple sec",
+      "25ml lemon juice",
+      "15ml gomme"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Bijou": {
+    "Ingredients": [
+      "35ml gin",
+      "20ml chartreuse",
+      "25ml sweet vermouth",
+      "2 dashes orange bitters"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "floral",
+      "herbal",
+      "spicy",
+      "bitter"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Whiskey Mac": {
+    "Ingredients": [
+      "40ml islay single malt",
+      "20ml ginger wine"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "spicy"
+    ],
+    "Alcohol": [
+      "whiskey",
+      "wine"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Martinez": {
+    "Ingredients": [
+      "50ml genever",
+      "25ml sweet vermouth",
+      "15ml dry vermouth",
+      "10ml orange curacao",
+      "dash angostura bitters"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "floral",
+      "herbal",
+      "bitter"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Calvados Old Fashioned": {
+    "Ingredients": [
+      "50ml calvados",
+      "10ml honey & cinnamon syrup",
+      "2 dash bitters"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "spicy",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Blood & Sand": {
+    "Ingredients": [
+      "20ml scotch",
+      "20ml sweet vermouth",
+      "20ml cherry heering liqueur",
+      "20ml orange juice"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "citrusy",
+      "sweet",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Red Snapper": {
+    "Ingredients": [
+      "50ml vodka",
+      "100ml tomato juice",
+      "7.5ml lemon juice",
+      "3 dashes tabasco sauce",
+      "8 dashes worcestershire sauce",
+      "pinch celery salt",
+      "pinch black pepper"
+    ],
+    "Taste": [
+      "citrusy",
+      "sour",
+      "spicy",
+      "herbal",
+      "spicy",
+      "spicy",
+      "sour",
+      "salty"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Boulevardier": {
+    "Ingredients": [
+      "25ml bourbon whiskey",
+      "25ml campari",
+      "25ml sweet vermouth",
+      "garnish: flamed orange"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "bitter",
+      "citrusy"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "heavy",
+    "History": "The Boulevardier’s origins can be traced back to the 1920s, and it is believed to have been created as a variation of the Negroni, replacing gin with rye whiskey. It was invented by American journalist, Erskine Gwynne in Paris."
+  },
+  "Bees Knees": {
+    "Ingredients": [
+      "50ml gin",
+      "20ml lemon juice",
+      "15ml honey syrup"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Rusty Nail": {
+    "Ingredients": [
+      "40ml scotch",
+      "20ml drambuie"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "sweet",
+      "spicy",
+      "herbal",
+      "smoky",
+      "caramel",
+      "vanilla"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Gin Rickey": {
+    "Ingredients": [
+      "50ml gin",
+      "3 lime wedges squeezed",
+      "top soda"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "carbonated",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Rum Old Fashioned": {
+    "Ingredients": [
+      "40ml aged rum",
+      "15ml velvet falernum",
+      "3 dash bitters",
+      "5ml demerara sugar"
+    ],
+    "Taste": [
+      "sweet",
+      "sweet",
+      "spicy",
+      "citrusy",
+      "bitter"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "heavy",
+    "History": "The Rum Old Fashioned, a classic and flavorful blend of dark rum, Angostura bitters, sugar, and citrus, has captivated taste buds with its rich, complex flavors and timeless appeal. Its origins can be traced back to the late 19th century, and it is believed to have evolved from the Old Fashioned, a cocktail originally made with whiskey."
+  },
+  "Caiprioska": {
+    "Ingredients": [
+      "50ml vodka",
+      "5 lime wedges",
+      "15ml gomme"
+    ],
+    "Taste": [
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Jungle Bird": {
+    "Ingredients": [
+      "35ml dark rum",
+      "15ml campari",
+      "50ml pineapple juice",
+      "15ml lime juice",
+      "10ml gomme"
+    ],
+    "Taste": [
+      "sweet",
+      "caramel",
+      "smoky",
+      "bitter",
+      "citrusy",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Brooklyn": {
+    "Ingredients": [
+      "50ml rye whiskey",
+      "10ml dry vermouth",
+      "10ml amer picon",
+      "10ml maraschino"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "floral",
+      "herbal",
+      "bitter",
+      "citrusy",
+      "herbal",
+      "bitter",
+      "fruity",
+      "sour"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Sangria": {
+    "Ingredients": [
+      "1 bottle of dry rose or red wine",
+      "75ml triple sec",
+      "50ml brandy",
+      "25ml gomme",
+      "50ml fresh orange juice (the fresher the better)"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sweet",
+      "sweet"
+    ],
+    "Alcohol": [
+      "wine"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Navy Grog": {
+    "Ingredients": [
+      "20ml white rum",
+      "20ml dark rum",
+      "20ml demerara rum",
+      "20ml lime juice",
+      "20ml grapefruit juice",
+      "15ml honey syrup",
+      "top soda"
+    ],
+    "Taste": [
+      "sweet",
+      "caramel",
+      "smoky",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Hot Buttered Rum": {
+    "Ingredients": [
+      "1 tablespoon butter",
+      "10ml vanilla sugar syrup",
+      "pinch on cinnamon",
+      "nutmeg & allspice",
+      "35ml aged rum",
+      "top hot water"
+    ],
+    "Taste": [
+      "sweet",
+      "creamy",
+      "spicy",
+      "vanilla",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Bronx": {
+    "Ingredients": [
+      "50ml gin",
+      "10ml sweet vermouth",
+      "10ml dry vermouth",
+      "30ml fresh orange juice"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "floral",
+      "herbal",
+      "citrusy",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Irish Coffee": {
+    "Ingredients": [
+      "50ml irish whiskey (sub out for variations)",
+      "15ml demerara sugar syrup",
+      "top to 1cm under the rim with fresh coffee",
+      "layer 1cm whipped cream"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "creamy",
+      "caramel",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey",
+      "coffee"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Grasshopper": {
+    "Ingredients": [
+      "25ml peppermint liqueur",
+      "25ml creme de cacao",
+      "75ml half & half (1:1 cream/milk)"
+    ],
+    "Taste": [
+      "herbal",
+      "creamy",
+      "spicy",
+      "herbal"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": ""
+  },
+  "Corpse Reviver No2": {
+    "Ingredients": [
+      "25ml gin",
+      "25ml lillet",
+      "25ml triple sec",
+      "5ml absinthe",
+      "25ml lemon juice"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sweet",
+      "sweet",
+      "fruity",
+      "citrusy",
+      "floral",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [
+      "gin",
+      "wine",
+      "absinthe"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Hurricane": {
+    "Ingredients": [
+      "25ml dark rum",
+      "25ml light rum",
+      "50ml passionfruit juice",
+      "25ml orange juice",
+      "15ml lime juice",
+      "10ml grenadine syrup",
+      "10ml gomme syrup"
+    ],
+    "Taste": [
+      "sweet",
+      "fruity",
+      "caramel",
+      "smoky",
+      "citrusy",
+      "sweet",
+      "fruity",
+      "sweet",
+      "citrusy",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Sidecar": {
+    "Ingredients": [
+      "30ml brandy",
+      "30ml triple sec",
+      "30ml lemon juice"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": ""
+  },
+  "Batida": {
+    "Ingredients": [
+      "50ml cacha\u00e7a",
+      "60ml fruit puree",
+      "15ml lime juice",
+      "25ml condensed milk"
+    ],
+    "Taste": [
+      "sweet",
+      "herbal",
+      "fruity",
+      "creamy",
+      "creamy",
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": ""
+  },
+  "Champagne": {
+    "Ingredients": [
+      "10ml cognac",
+      "1 brown sugar cube",
+      "2 dashes angostura bitters",
+      "top champagne"
+    ],
+    "Taste": [
+      "fruity",
+      "sweet",
+      "spicy",
+      "caramel",
+      "vanilla",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "brandy",
+      "champagne"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Southside": {
+    "Ingredients": [
+      "50ml gin",
+      "25ml lemon juice",
+      "15ml gomme",
+      "6 mint leaves"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "herbal",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Mimosa": {
+    "Ingredients": [
+      "50ml fresh orange juice",
+      "top sparkling wine"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet"
+    ],
+    "Alcohol": [
+      "wine"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Penicillin": {
+    "Ingredients": [
+      "40ml scotch",
+      "15ml ginger liqueur",
+      "15ml islay whiskey",
+      "20ml lemon juice",
+      "10ml honey"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "spicy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": "While not as life-changing as the antibiotic, the cocktail is just as famous. The Penicilin’s origins can be traced back to 2005, and it is believed to have been created by an Australian bartender Sam Ross at Milk & Honey in New York City."
+  },
+  "El Diablo": {
+    "Ingredients": [
+      "35ml reposado tequila",
+      "15ml cassis",
+      "15ml lime juice",
+      "60ml ginger beer"
+    ],
+    "Taste": [
+      "herbal",
+      "spicy",
+      "sweet",
+      "fruity",
+      "carbonated",
+      "spicy",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [
+      "tequila"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Gibson": {
+    "Ingredients": [
+      "60ml gin",
+      "10ml dry vermouth"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "floral",
+      "herbal"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Ramos Gin Fizz": {
+    "Ingredients": [
+      "50ml gin",
+      "10ml lime juice",
+      "10ml lemon juice",
+      "20ml gomme",
+      "3 drops orange flower extract",
+      "3 drops vanilla extract",
+      "1 egg white",
+      "20ml half & half",
+      "top soda"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "carbonated",
+      "creamy",
+      "citrusy",
+      "sour",
+      "vanilla",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin",
+      "egg white"
+    ],
+    "Weight": "light",
+    "History": "The Gin Fizz is believed to have evolved from the Gin Sling, a cocktail that included gin, lemon juice, and sugar. It was invented in 1888 by Henry C. Ramos at his bar known as the Imperial Cabinet Saloon on Gravier Street, New Orleans, Louisiana."
+  },
+  "Singapore Sling": {
+    "Ingredients": [
+      "25ml gin",
+      "10ml grand marnier",
+      "10ml maraschino liqueur",
+      "10ml benedictine",
+      "40ml pineapple juice",
+      "20ml lime juice",
+      "1 dash angostura bitters",
+      "top soda"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "fruity",
+      "sweet",
+      "spicy",
+      "caramel",
+      "vanilla",
+      "citrusy",
+      "bitter",
+      "bitter",
+      "fruity",
+      "sour",
+      "floral",
+      "herbal",
+      "citrusy",
+      "sweet",
+      "spicy",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "bitter"
+    ],
+    "Alcohol": [
+      "gin",
+      "brandy"
+    ],
+    "Weight": "heavy",
+    "History": ""
+  },
+  "Pina Colada": {
+    "Ingredients": [
+      "50ml golden rum",
+      "50ml pineapple juice",
+      "35ml coconut milk",
+      "15ml lime juice"
+    ],
+    "Taste": [
+      "sweet",
+      "creamy",
+      "creamy",
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "sweet",
+      "creamy",
+      "nutty"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "Three different bartenders claim they created\u00a0Puerto Rico\u2019s star cocktail, which features coconut cream, rum, and pineapple juice. Ram\u00f3n \u201cMonchito\u201d Marrero spent months crafting the recipe behind the bar at the Caribe Hilton Hotel in 1954. However, his fellow bartender Ricardo Garc\u00eda claims to have made it when a coconut shortage required him to devise a new recipe. A third mixologist, Ram\u00f3n Portas Mignot, at Barrachina in Old San Juan, also stakes a claim.\u00a0\u00a0"
+  },
+  "Mint Julep": {
+    "Ingredients": [
+      "50ml bourbon",
+      "15ml gomme",
+      "8 mint leaves"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "herbal",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Blue Blazer": {
+    "Ingredients": [
+      "60ml cask strength whiskey (55% +)",
+      "10ml demerara sugar syrup",
+      "40ml boiling water"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Breakfast Martini": {
+    "Ingredients": [
+      "50ml gin",
+      "15ml triple sec",
+      "15ml lemon juice",
+      "1 teaspoon marmalade (stir with lemon juice)"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": "Despite its name, the Breakfast Martini isn’t a brunch cocktail but rather an imaginative drink conceived originally as a pick-me-up. Created in London sometime during the 90s by bartender Salvatore Calabrese, this citrusy drink was initially mixed for a woman who enjoyed fruity cocktails rather than very dry drinks favored in that era."
+  },
+  "Hot Toddy": {
+    "Ingredients": [
+      "50ml whiskey",
+      "10ml lemon juice",
+      "10ml honey",
+      "2 cloves",
+      "1 cinnamon stick",
+      "pinch nutmeg",
+      "60ml hot water"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "citrusy",
+      "sour",
+      "spicy",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Clover Club": {
+    "Ingredients": [
+      "50ml gin",
+      "10ml fresh lemon juice",
+      "10ml grenadine",
+      "10ml sweet vermouth",
+      "5 raspberries",
+      "egg white"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "fruity",
+      "sweet",
+      "creamy",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [
+      "gin",
+      "egg white"
+    ],
+    "Weight": "heavy",
+    "History": "A pretty pink classic swirling with sweet citrus froth, the Clover Club cocktail has fascinating origins tied to a 19th-century Philadelphia men’s club of literary types who tossed back drinks with names inspired by their academic leanings. This club counted famed poet Edna St Vincent Millay among its members. Both elite and jovial, their bar logo was a four-leaf clover, an emblem that came to attach itself to their eponymous rich, layered gin concoction laced with raspberry overtones. Soft, sweet, and delicately fruity, the Clover Club endures as a symbol of America’s bygone club era and early literary salons."
+  },
+  "Zombie": {
+    "Ingredients": [
+      "25ml golden rum",
+      "25ml dark rum",
+      "25ml triple sec",
+      "15ml lime juice",
+      "40ml orange juice",
+      "25ml passionfruit puree",
+      "7.5ml grenadine",
+      "2 dashes angostura bitters"
+    ],
+    "Taste": [
+      "sweet",
+      "caramel",
+      "smoky",
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sweet",
+      "fruity",
+      "sweet",
+      "citrusy",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "bitter"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "heavy",
+    "History": "Don’t let the name fool you – this beast of a drink is delicious despite its ominous moniker. Invented in 1934 by cocktail pioneer “Don The Beachcomber” at his Hollywood bar, it packs the quintessential rum-citrus tropical punch. The Zombie’s origins are appropriately mysterious. As per Don’s flair for showmanship, he kept the recipe guarded to amp up its mystique but it clearly contains multiple rums and tropical flavors. Potent and strong enough to make patrons feel like “zombies” after a few, it became iconic, inspiring the blender loaded with rum that became synonymous with Tiki bars."
+  },
+  "Americano": {
+    "Ingredients": [
+      "45ml campari",
+      "45ml sweet vermouth",
+      "top soda"
+    ],
+    "Taste": [
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "bitter",
+      "citrusy",
+      "carbonated"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": "The Americano is a bittersweet and refreshing blend of Campari, sweet vermouth, and soda water. Its origins can be traced back to the 1860s in Milan, Italy, and it is believed to have been created at Gaspare Campari’s Caffè Campari."
+  },
+  "Cubre Libre": {
+    "Ingredients": [
+      "50ml rum",
+      "3 wedges lime squeezed",
+      "top coca-cola"
+    ],
+    "Taste": [
+      "sweet",
+      "sweet",
+      "carbonated",
+      "caramel",
+      "citrusy",
+      "sour"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Seabreeze": {
+    "Ingredients": [
+      "50ml vodka",
+      "50ml cranberry juice",
+      "25ml grapefruit juice"
+    ],
+    "Taste": [
+      "sweet",
+      "fruity",
+      "sour",
+      "bitter",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Anejo Highball": {
+    "Ingredients": [
+      "35ml golden rum",
+      "15ml triple sec",
+      "10ml lime juice",
+      "1 dash angostura bitters",
+      "top ginger beer"
+    ],
+    "Taste": [
+      "sweet",
+      "citrusy",
+      "sweet",
+      "carbonated",
+      "spicy",
+      "citrusy",
+      "sour",
+      "bitter"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Aviation": {
+    "Ingredients": [
+      "50ml gin",
+      "10ml maraschino liqueur",
+      "7.5ml violet liqueur",
+      "20ml lemon juice"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "bitter",
+      "fruity",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet",
+      "floral"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": "The Aviation soars as an imaginative mixology pioneer. Created in the early 20th century by New York bartender Hugo Ensslin, this gorgeous purple gin sour adds floral crème de violette for a special touch. Ensslin used the newly available crème liqueurs to craft creative, delicate drinks before Prohibition ended cocktail creativity. Named after the exciting new planes gracing the skies in the pioneering airplane age, the Aviation blended science and glamour. After fading away, it was revived in the early 2000s when vintage cocktails came back in vogue. Tart, sweet, and subtly perfumed, this celestial gin sour remains an iconic symbol of the artful, elegant early days of mixology."
+  },
+  "Rum Swizzle": {
+    "Ingredients": [
+      "50ml rum",
+      "15ml velvet falernum",
+      "20ml lime juice",
+      "10ml demerara sugar syrup",
+      "1 dash angostura bitters"
+    ],
+    "Taste": [
+      "sweet",
+      "sweet",
+      "spicy",
+      "citrusy",
+      "citrusy",
+      "sour",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "The Rum Swizzle’s origins can be traced back to the 1930s in Bermuda, where it was created at the swanky bar of the Bermuda Yacht Club. The Rum Swizzle quickly gained popularity among both locals and tourists, becoming a symbol of Bermudian hospitality and a delightful choice for relaxing by the beach or pool."
+  },
+  "Planter's Punch": {
+    "Ingredients": [
+      "50ml dark rum",
+      "20ml lime juice",
+      "15ml gomme",
+      "3 dashes angostura bitters",
+      "top soda"
+    ],
+    "Taste": [
+      "sweet",
+      "caramel",
+      "smoky",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "The Planters Punch’s origins can be traced back to the 19th century, and it is believed to have originated in Jamaica as a refreshing beverage for plantation workers. The Planters Punch quickly gained popularity among travelers and locals alike, becoming a symbol of Jamaican hospitality and a delightful choice for warm-weather gatherings."
+  },
+  "Bramble": {
+    "Ingredients": [
+      "50ml gin",
+      "25ml fresh lemon juice",
+      "10ml sugar syrup",
+      "10ml blackberry liqueur"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": "The Bramble’s origins can be traced back to the 1980s in London, England, and it is believed to have been created by Dick Bradsell at the legendary cocktail bar Dick’s Bar."
+  },
+  "French 75": {
+    "Ingredients": [
+      "15ml gin",
+      "7.5ml lemon juice",
+      "5ml gomme",
+      "top champagne"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin",
+      "champagne"
+    ],
+    "Weight": "light",
+    "History": "The French 75’s origins can be traced back to the 1920s in Paris, France, and it is believed to have been created by Harry MacElhone at the Harry’s New York Bar. The French 75 quickly gained popularity among American expatriates and returning soldiers, becoming a symbol of Parisian glamour and a refreshing choice for special occasions."
+  },
+  "White Russian": {
+    "Ingredients": [
+      "25ml vodka",
+      "25ml coffee liqueur",
+      "75ml half/half (1:1 milk/cream)"
+    ],
+    "Taste": [
+      "creamy",
+      "caramel"
+    ],
+    "Alcohol": [
+      "vodka",
+      "coffee"
+    ],
+    "Weight": "light",
+    "History": "The white russian could be classified as dessert thanks to its easy-drinking combination of vodka, Kahl\u00faa, and cream. The white version sprang up in the 1960s when the black russian got a splash of cream. The only thing either drink has to do with Russia is using the country\u2019s signature spirit."
+  },
+  "Elderflower Collins": {
+    "Ingredients": [
+      "40ml gin",
+      "15ml elderflower liqueur",
+      "10ml gomme",
+      "4 lime wedges",
+      "top soda"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "floral",
+      "sweet",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": "The Elderflower Collins’s origins can be traced back to the 19th century, and it is believed to have evolved from the Tom Collins, a classic cocktail that included gin, lemon juice, sugar, and soda water. "
+  },
+  "Gimlet": {
+    "Ingredients": [
+      "60ml gin",
+      "20ml lime juice",
+      "10ml gomme syrup"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": "The Gimlet is a simple yet sophisticated blend of gin and lime cordial that has captivated the taste buds of millions with its refreshing acidity and straightforward preparation. Its origins can be traced back to the early 1920s, and it is believed to have been created by British naval officers seeking a palatable way to consume lime juice as an anti-scurvy medication. The Gimlet is named after a Royal Navy surgeon – Rear-Admiral Sir Thomas Gimlette."
+  },
+  "Pisco Sour": {
+    "Ingredients": [
+      "50ml pisco",
+      "2ml lime juice",
+      "10ml gomme",
+      "1 egg white"
+    ],
+    "Taste": [
+      "fruity",
+      "sweet",
+      "spicy",
+      "caramel",
+      "vanilla",
+      "creamy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "brandy",
+      "egg white"
+    ],
+    "Weight": "light",
+    "History": "The Pisco Sour’s origins can be traced back to the 1920s in Lima, Peru. It was created by bartender Victor Vaughen Morris who owned and operated the Morris’ Bar. According to the Chilean web newspaper El Mercurio Online, Morris invented the drink for his friends as a surprise. It quickly gained popularity among locals and became a symbol of the country’s rich culinary heritage."
+  },
+  "Tom Collins": {
+    "Ingredients": [
+      "50ml gin",
+      "20ml lemon juice",
+      "15ml simple syrup",
+      "150ml soda water"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Long Island Iced Tea": {
+    "Ingredients": [
+      "10ml vodka",
+      "10ml tequila",
+      "10ml rum",
+      "10ml orange liqueur",
+      "10ml gin",
+      "100ml cola"
+    ],
+    "Taste": [
+      "sweet",
+      "floral",
+      "herbal",
+      "spicy",
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sweet",
+      "sweet",
+      "carbonated",
+      "caramel"
+    ],
+    "Alcohol": [
+      "gin",
+      "rum",
+      "vodka",
+      "tequila"
+    ],
+    "Weight": "heavy",
+    "History": "The Long Island Iced Tea is a deceptively refreshing blend of five different spirits. Its origins can be traced back to the 1970s, and it is believed to have been created at the Long Island bar Harry’s 125. Despite its name, the Long Island Iced Tea contains no actual tea, but rather the combination of clear spirits and cola creates the illusion of a refreshing iced tea."
+  },
+  "Kir Royale": {
+    "Ingredients": [
+      "110ml champagne",
+      "15ml cr\u00e8me de\u202fcassis"
+    ],
+    "Taste": [
+      "sweet",
+      "fruity",
+      "creamy"
+    ],
+    "Alcohol": [
+      "champagne"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Sazerac": {
+    "Ingredients": [
+      "40 rye whiskey",
+      "20ml cognac",
+      "1 brown sugar cube",
+      "3 dashes of peychaud\u2019s bitters"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "fruity",
+      "sweet",
+      "spicy",
+      "caramel",
+      "vanilla",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey",
+      "brandy"
+    ],
+    "Weight": "heavy",
+    "History": "The Sazerac takes its name from Sazerac-de-Forge et fils, a French brandy that figured in the cocktail\u2019s original version. Antoine Peychaud mixed the first drink in 1838 in his\u00a0New Orleans\u00a0apothecary to serve to his fellow Masons. As the drink evolved, American rye-whiskey subbed in for cognac. It later came to include absinthe and Peychaud bitters. The drink is still synonymous with the Crescent City."
+  },
+  "Pimm's Cup": {
+    "Ingredients": [
+      "50ml pimm\u2019s no.1 cup",
+      "125ml lemonade",
+      "5 mint leaves",
+      "2 slices of orange",
+      "2 slices of apple",
+      "2 slices of cucumber",
+      "1 strawberry (cut in quarters)"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "herbal",
+      "herbal",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": "British bar owner\u00a0James Pimm\u00a0created his eponymous drink between 1823 and 1840. His creation used gin, quinine, and herbs, and quickly became the bar\u2019s specialty \u2014 or house cup. When subsequent cups were born with alternate spirits, the original got a number, too \u2014 No. 1. Today\u2019s recipe uses gin and sparkling lemonade or ginger ale that\u2019s served with fruit and garnished with mint."
+  },
+  "Cosmopolitan": {
+    "Ingredients": [
+      "30ml vodka",
+      "20ml triple sec",
+      "60ml cranberry juice",
+      "10ml lime juice",
+      "2 dashes orange bitters"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet",
+      "sweet",
+      "fruity",
+      "sour",
+      "bitter",
+      "citrusy",
+      "sour",
+      "bitter"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": "Although \u201cSex and the City\u201d fans may beg to differ, the cosmopolitan\u2019s history predates its days as Carrie Bradshaw\u2019s favorite drink. According to San Francisco bartender\u00a0John Caine, the drink precedes World War II when it was known as a vodka gimlet. After World War II, it evolved to include French Cointreau along with the vodka and lime, and a new name \u2014 \u201ckamikaze.\u201d In the 1980\u2019s, bartenders added cranberry juice to give the drink its iconic blush.\u00a0"
+  },
+  "Bellini": {
+    "Ingredients": [
+      "100ml prosecco",
+      "25ml peach puree"
+    ],
+    "Taste": [
+      "fruity",
+      "floral",
+      "citrusy",
+      "carbonated",
+      "sweet",
+      "fruity"
+    ],
+    "Alcohol": [
+      "wine"
+    ],
+    "Weight": "light",
+    "History": "The Bellini, a refreshing and elegant blend of prosecco and white peach purée, has captivated taste buds with its delicate sweetness and vibrant appearance.Its origins can be traced back to somewhere between 1934 and 1948 in Venice, Italy with its creation credited to Giuseppe Cipriani at Harry’s Bar."
+  },
+  "Vesper Martini": {
+    "Ingredients": [
+      "40ml gin",
+      "10ml vodka",
+      "5ml lillet"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "fruity",
+      "citrusy",
+      "floral"
+    ],
+    "Alcohol": [
+      "gin",
+      "wine",
+      "vodka"
+    ],
+    "Weight": "heavy",
+    "History": "The Vesper Martini’s origins can be traced back to 1953 when famous author Ian Fleming introduced it in his novel “Casino Royale” as the signature drink of his iconic character, James Bond. In the novel, Bond describes the Vesper as “three measures of Gordon’s, one of vodka, shaken over ice, with a twist of lemon. Preferably in a deep champagne goblet.”"
+  },
+  "Hemingway Daiquiri": {
+    "Ingredients": [
+      "35ml white rum",
+      "15ml maraschino liqueur",
+      "20ml lime juice",
+      "60ml grapefruit juice",
+      "10ml gomme"
+    ],
+    "Taste": [
+      "sweet",
+      "bitter",
+      "fruity",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "The Hemingway Daiquiri, a refreshing and uncomplicated blend of white rum, lime juice, and grapefruit juice, is a beloved cocktail with a rich history and a literary connection. Its origins can be traced back to the 1930s in Havana, Cuba, where it was created at El Floridita bar, a regular hangout for the renowned author Ernest Hemingway. The cocktail quickly gained popularity among Hemingway’s friends and fellow patrons, becoming a symbol of his adventurous spirit and his love for Cuba."
+  },
+  "Mai Tai": {
+    "Ingredients": [
+      "25ml gold rum",
+      "25ml dark rum",
+      "15ml triple sec",
+      "15ml orgeat syrup",
+      "25ml lime juice"
+    ],
+    "Taste": [
+      "sweet",
+      "caramel",
+      "smoky",
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "Although others have claimed credit, popular opinion holds that this sugary drink\u00a0traces its roots\u00a0to an Oakland, California, restaurant, where Victor Jules Bergeron, aka \u201cTrader Vic,\u201d mixed the first drink in 1934. When he tested a new cocktail with rum, lime, orgeat (almond syrup), orange cura\u00e7ao, and simple syrup, on his Tahitian guests, they proclaimed \u201cMaita\u2019i roa a\u2019e!\u201d (\u201cOut of this world! The best!\u201d). It was then dubbed the \u201cMai Tai,\u201d or simply \u201cThe Best.\u201d"
+  },
+  "Paloma": {
+    "Ingredients": [
+      "50ml reposado tequila",
+      "25ml pink grapefruit juice",
+      "15ml lime juice",
+      "5ml agave syrup",
+      "top grapefruit soda"
+    ],
+    "Taste": [
+      "herbal",
+      "spicy",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "sweet"
+    ],
+    "Alcohol": [
+      "tequila"
+    ],
+    "Weight": "light",
+    "History": "The Paloma, a refreshing and tangy blend of tequila blanco, grapefruit soda, and lime juice, is a popular Mexican cocktail with a vibrant and inviting appearance. The Paloma is a mysterious cocktail with its origins remaining a mystery to date. However, there is a recurring theory that the cocktail is named after La Paloma (“The Dove”), the popular folk song composed in the early 1860s."
+  },
+  "Tommy's Margarita": {
+    "Ingredients": [
+      "50ml reposado tequila",
+      "25ml lime juice",
+      "15ml agave syrup"
+    ],
+    "Taste": [
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "tequila"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Bloody Mary": {
+    "Ingredients": [
+      "50ml vodka",
+      "80ml tomato juice",
+      "15ml lemon juice",
+      "15ml worcester sauce",
+      "5 dashes tabasco sauce",
+      "2 pinches of celery salt",
+      "2 pinches onion salt",
+      "2 pinches of black pepper"
+    ],
+    "Taste": [
+      "citrusy",
+      "sour",
+      "spicy",
+      "herbal",
+      "spicy",
+      "spicy",
+      "sour",
+      "salty"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": "This drink may have been named after a British queen \u2014 at least according to urban legend \u2014 but it was invented in\u00a0Paris. Bartender Fernand Petiot developed the mixture at Harry\u2019s Bar in 1921. Today\u2019s brunch favorite, which has vodka, tomato juice cocktail, Worcestershire, black pepper, and lemon, was adopted across the Atlantic under the name \u201cThe Red Snapper.\u201d It adopted its more famous appellation a decade later. Queen Mary Tudor, whose gory reign inspired her nickname \u201cBloody Mary,\u201d is thought to have inspired the drink\u2019s current name."
+  },
+  "Vodka Martini": {
+    "Ingredients": [
+      "50ml vodka",
+      "5ml dry vermouth"
+    ],
+    "Taste": [
+      "floral",
+      "herbal"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "heavy",
+    "History": "The Vodka Martini, a refined and timeless classic cocktail, has stood the test of time as a beloved libation. Its origins can be traced back to the early 20th century, and it is believed to have evolved from the Gin Martini. In the USA, the first reference to the Vodka Martini was in a cocktail recipe book published in 1952. The book is called Bottoms Up by Ted Saucier."
+  },
+  "Amaretto Sour": {
+    "Ingredients": [
+      "50ml amaretto liqueur",
+      "25ml lemon juice",
+      "15ml simple syrup",
+      "egg white"
+    ],
+    "Taste": [
+      "sweet",
+      "nutty",
+      "creamy",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "egg white"
+    ],
+    "Weight": "light",
+    "History": ""
+  },
+  "Caipirinha": {
+    "Ingredients": [
+      "60ml cacha\u00e7a",
+      "4-6 wedges of fresh lime",
+      "10ml simple syrup"
+    ],
+    "Taste": [
+      "sweet",
+      "herbal",
+      "fruity",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [],
+    "Weight": "light",
+    "History": "Once considered Brazil’s national cocktail, the Caipirinha is now an international classic beloved by millions beyond Brazil. Its origins can be traced back to the early 1900s, and it is believed to have originated in the sugarcane plantations of southeastern Brazil. However, some tales claim it was prepared for the first time as a medicine to ease the effects of the Spanish Flu towards the end of World War I."
+  },
+  "Manhattan": {
+    "Ingredients": [
+      "50ml whiskey",
+      "20ml sweet vermouth",
+      "1 dash of angostura bitters"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "bitter"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "heavy",
+    "History": "Popular lore traces the Manhattan\u2019s origins to the Manhattan Club in New York, which still lays claim to the drink. However, cocktail historians trace its genesis to Hoffman House, where bartender William F. Mulhall mixed the drink in the 1860s. Today\u2019s version features just three ingredients: whiskey, sweet vermouth, and bitters."
+  },
+  "Moscow Mule": {
+    "Ingredients": [
+      "50ml vodka",
+      "15ml lime juice",
+      "150ml ginger beer",
+      "3 dashes of angostura bitters"
+    ],
+    "Taste": [
+      "carbonated",
+      "spicy",
+      "citrusy",
+      "sour",
+      "bitter"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": "The Moscow mule and the copper mug. The two are synonymous with each other, and so are their histories. The drink emerged in 1941 from Los Angeles pub Cock \u2018n\u2019 Bull, which had an excess of ginger beer on hand.\u00a0 Owner\u00a0Jack Morgan\u00a0and bar tender Eric Felton both laid claim to the recipe, though Morgan\u2019s claim came with this addendum: his girlfriend owned a company that made copper mugs, and she was a\u00a0savvy saleswoman. The refreshing drink mixes vodka, ginger beer, and lime."
+  },
+  "French Martini": {
+    "Ingredients": [
+      "25ml vodka",
+      "25ml chambord",
+      "50ml pineapple juice"
+    ],
+    "Taste": [
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "sweet",
+      "fruity",
+      "vanilla"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": "The French Martini, despite its name, is not a traditional French cocktail. Its origins can be traced back to the 1980s in New York City, where it was created by bartender Stanley Arrington at the renowned Balthazar restaurant. The cocktail quickly gained popularity for its sophisticated blend of flavors and its elegant presentation"
+  },
+  "Whiskey Sour": {
+    "Ingredients": [
+      "50ml whiskey (we recommend a bourbon)",
+      "25ml lemon juice",
+      "15ml simple syrup",
+      "1 egg white",
+      "3 dashes of angostura bitters"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "creamy",
+      "citrusy",
+      "sour",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey",
+      "egg white"
+    ],
+    "Weight": "light",
+    "History": "The Whiskey Sour’s origins can be traced back to the early 1872 as per the Peruvian newspaper, El Comercio de Iquique. The newspaper wrote that the Whiskey Sour was created by Elliott Stubb who used Limón de Pica for the citrus."
+  },
+  "Dark 'n' Stormy": {
+    "Ingredients": [
+      "50ml gosling\u2019s black seal rum",
+      "15ml lime juice",
+      "top ginger beer",
+      "3 dashes of angostura bitters"
+    ],
+    "Taste": [
+      "sweet",
+      "carbonated",
+      "spicy",
+      "citrusy",
+      "sour",
+      "bitter"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "The Dark & Stormy’s origins can be traced back to the early 1900s after World War I. As the story goes, the cocktail was born in a Ginger Beer factory that was run by the Royal Naval Officer’s Club in Bermuda. It quickly gained popularity among sailors and tourists, becoming a symbol of the island’s laid-back lifestyle and tropical allure."
+  },
+  "Martini": {
+    "Ingredients": [
+      "50ml gin",
+      "5ml dry vermouth"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "floral",
+      "herbal"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": "The martini is a utility hitter when it comes to libations. The basic ingredients of gin and vermouth can be transformed when combined with other elements, such as espresso. The classic version is garnished with an olive or a lemon twist. The drink is said to date to the Gold Rush era. It\u00a0hails from Martinez, California, where a resourceful bartender supposedly mixed a miner a celebratory drink with what he had behind his bar: gin, vermouth, bitters, maraschino liqueur, and lemon.\u00a0\u00a0"
+  },
+  "Margarita": {
+    "Ingredients": [
+      "35ml reposado tequila",
+      "15ml orange liqueur",
+      "30ml lime juice",
+      "5ml simple syrup"
+    ],
+    "Taste": [
+      "herbal",
+      "spicy",
+      "citrusy",
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "tequila"
+    ],
+    "Weight": "light",
+    "History": "Its origins can be traced back to the 1930s in the border towns between Mexico and the United States. It is said to have been invented in 1938 by Carlos ‘Danny’ Herrera at his restaurant, near Tijuana, called Rancho La Gloria. In its creation, the cocktail was allegedly created for a famed patron. It quickly gained popularity and became a symbol of Mexican hospitality and a carefree spirit."
+  },
+  "Mojito": {
+    "Ingredients": [
+      "50ml rum",
+      "15ml lime juice",
+      "10ml simple syrup",
+      "50ml soda water",
+      "5 mint leaves"
+    ],
+    "Taste": [
+      "sweet",
+      "herbal",
+      "carbonated",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "When you drink a mojito, you\u2019re drinking like a pirate \u2014 at least according to one of several of the drink\u2019s genesis stories. After English swashbuckler Sir Francis Drake\u2019s 1500s invasion of Cuba was unsuccessful, he (supposedly)\u00a0mixed the first mojito\u00a0in Havana. The drink was thought to be medicinal. The combination of white rum \u2014 or back then, aguardiente \u2014 sugar, lime juice, soda water, and yerba buena or spearmint was thought to cure ailments like scurvy. The drink remains one of Cuba\u2019s most famous cocktails."
+  },
+  "Daiquiri": {
+    "Ingredients": [
+      "50ml rum",
+      "35ml lime juice",
+      "15ml simple syrup"
+    ],
+    "Taste": [
+      "sweet",
+      "citrusy",
+      "sour",
+      "sweet"
+    ],
+    "Alcohol": [
+      "rum"
+    ],
+    "Weight": "light",
+    "History": "Although many cocktails have liquid histories, the\u00a0daiquiri\u2019s background\u00a0is more concrete. American engineer Jennings Cox signed an 1896 recipe card that proves its origins. Cox created the drink while in Cuba. He used rum, which was and remains plentiful in the island nation; limes; and brown sugar for sweetness. The cocktail shares its name with the nearby village of Daiquir\u00ed."
+  },
+  "Aperol Spritz": {
+    "Ingredients": [
+      "30ml aperol",
+      "60ml prosecco",
+      "30ml soda water"
+    ],
+    "Taste": [
+      "sweet",
+      "herbal",
+      "citrusy",
+      "bitter",
+      "fruity",
+      "floral",
+      "citrusy",
+      "carbonated",
+      "carbonated"
+    ],
+    "Alcohol": [
+      "wine"
+    ],
+    "Weight": "light",
+    "History": "This summer-in-a-glass cocktail mixes\u00a0Aperol (an Italian bitter ap\u00e9ritif made from bitter and sweet oranges and rhubarb), prosecco, and club soda. Aperol was born in 1919 after Luigi and Silvio Barbieri released orange-hued nip. A few decades later, in the 1950s, the drink was matched with the long-held tradition of the spritz as a pre-dinner drink. The cocktail made its way to the U.S. in the early 2000s.\u00a0\u00a0"
+  },
+  "Negroni": {
+    "Ingredients": [
+      "25ml gin",
+      "25ml sweet vermouth",
+      "25ml campari"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "sweet",
+      "spicy",
+      "herbal",
+      "bitter",
+      "bitter",
+      "citrusy"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "heavy",
+    "History": "Count Camillo Negroni\u00a0was an exacting customer when, in 1919, he ordered the drink that became the cocktail we drink today. He asked the bartender to replace the soda water in an Americano (a libation with Campari, red vermouth, and soda water) with gin. The bartender did so and swapped out the usual lemon garnish with an orange one. The Negroni was born. Today it\u2019s served with Campari (an Italian bitter), gin, and sweet vermouth."
+  },
+  "Pornstar Martini": {
+    "Ingredients": [
+      "40ml vodka",
+      "15ml passionfruit liqueur",
+      "15ml vanilla gomme",
+      "10ml lime juice",
+      "20ml passionfruit puree",
+      "50ml champagne"
+    ],
+    "Taste": [
+      "citrusy",
+      "sour",
+      "citrusy",
+      "sour",
+      "sweet",
+      "fruity",
+      "vanilla",
+      "sweet"
+    ],
+    "Alcohol": [
+      "vodka",
+      "champagne"
+    ],
+    "Weight": "light",
+    "History": "A tempting temptress of a drink, the Pornstar Martini was invented by iconic London bartender Douglas Ankrah. Born in the hedonistic days of the early 1990s at Townhouse restaurant, it mixes velvety smooth vanilla vodka with a hit of passion fruit and bright lime."
+  },
+  "Espresso Martini": {
+    "Ingredients": [
+      "25ml vodka",
+      "25ml coffee liqueur",
+      "50ml fresh espresso coffee",
+      "5ml simple syrup (optional)"
+    ],
+    "Taste": [
+      "caramel",
+      "sweet"
+    ],
+    "Alcohol": [
+      "vodka",
+      "coffee"
+    ],
+    "Weight": "light",
+    "History": "The Espresso Martini was created in the 1980s by Dick Bradsell, a bartender at the Freds Club in London. It is said that Bradsell was asked to make a drink for a woman who wanted something to wake her up. Bradsell combined vodka, espresso, coffee liqueur, and simple syrup, and the Espresso Martini was born."
+  },
+  "Old Fashioned": {
+    "Ingredients": [
+      "50ml bourbon",
+      "3 dashes of angostura bitters",
+      "1 brown sugar cube"
+    ],
+    "Taste": [
+      "spicy",
+      "smoky",
+      "vanilla",
+      "caramel",
+      "bitter",
+      "sweet"
+    ],
+    "Alcohol": [
+      "whiskey"
+    ],
+    "Weight": "heavy",
+    "History": "The 1862 book \u201cJerry Thomas\u2019 Bartenders Guide: How to Mix Drinks\u201d hinted at the drink that became the Old Fashioned, though it lacked the libation\u2019s use of whisky. In 1880, Louisville, Kentucky, social club The Pendennis Club brought the\u00a0modern incarnation\u00a0to life. James E. Pepper invented the drink, likely with Kentucky bourbon to accompany the bitters, sugar, and plain water that make up this classic. He took the recipe with him to the Waldorf-Astoria Hotel bar in New York City where it gained traction."
+  },
+  "Screwdriver": {
+    "Ingredients": [
+      "44ml vodka",
+      "177ml orange juice",
+      "1.5 cups of ice cubes"
+    ],
+    "Taste": [
+      "citrusy",
+      "sweet"
+    ],
+    "Alcohol": [
+      "vodka"
+    ],
+    "Weight": "light",
+    "History": "Although popular history tracks this cocktail\u2019s origins to World War II when\u00a0American Marines\u00a0mixed vodka with their orange juice, there\u2019s another plausible story to consider. Some say around the same time, Persian Gulf oil workers started mixing the two ingredients together. When they lacked something to stir their drinks with, they reached for what they had on hand: a screwdriver.\u00a0\u00a0"
+  },
+  "Gin & Tonic": {
+    "Ingredients": [
+      "60ml gin",
+      "120ml tonic water"
+    ],
+    "Taste": [
+      "floral",
+      "herbal",
+      "spicy",
+      "carbonated"
+    ],
+    "Alcohol": [
+      "gin"
+    ],
+    "Weight": "light",
+    "History": "Cocktails mixed with tonic gained popularity during the\u00a0British\u00a0occupation of India when the soldiers used tonic water containing quinine, created by the bark of cinchona, to prevent and cure the effects of malaria. The tonic was supercharged with quinine, and it was much more potent than what\u2019s used today. Initially, the Brits cut the flavor with sweet spirits, such as rum. Gin was incorporated as early as 1868, when a magazine reported spectators at a horse-racing event in India were asking for the refreshing drink."
+  }
+}

@@ -1,0 +1,98 @@
+Cocktail Name,Ingredients,Taste,Ingredient_Break_Down,Weight
+Monkey Gland,"50ml london dry gin,15ml absinthe,15ml grenadine,60ml orange juice","['floral', 'herbal', 'spicy', 'citrusy', 'sweet', 'fruity', 'sweet']","['gin', 'absinthe']",light
+Mitch Martini,"50ml bison grass vodka,10ml peach liqueur,10ml passionfruit syrup,50ml apple juice","['citrusy', 'sour', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet', 'fruity', 'sweet']",['vodka'],light
+Painkiller,"50ml pusser’s navy strength rum,75ml pineapple juice,30ml orange juice,30ml coconut cream","['sweet', 'citrusy', 'sweet', 'creamy', 'creamy', 'sweet', 'sweet', 'fruity', 'sweet', 'fruity', 'sweet', 'creamy', 'nutty']",['rum'],light
+Brandy Alexander,"30ml brandy,25ml dark crème de cacao,50ml half/half (1:1 cream/milk)",['creamy'],[],light
+Japanese Slipper,"30ml midori,30ml triple sec,25ml lemon juice","['citrusy', 'sweet', 'sweet', 'fruity', 'citrusy', 'sour']",[],light
+Greyhound,"50ml vodka/gin,75ml pink grapefruit juice","['floral', 'herbal', 'spicy', 'sweet', 'fruity']","['gin', 'vodka']",light
+Hedgerow Sling,"25ml gin,25ml sloe gin,25ml lemon juice,10ml gomme,15ml crème de mure (laced),dash soda","['floral', 'herbal', 'spicy', 'creamy', 'carbonated', 'citrusy', 'sour', 'sweet']",['gin'],light
+Caiparissima,"50ml rum,6 wedges lime,15ml demerara sugar syrup","['sweet', 'citrusy', 'sour', 'sweet']",['rum'],light
+Lynchburg Lemonade,"35ml jack daniel’s,25ml triple sec,25ml lemon juice,50ml lemonade","['spicy', 'smoky', 'vanilla', 'caramel', 'citrusy', 'sweet', 'citrusy', 'sour']",['whiskey'],light
+The Gold Record,"25ml plantation pineapple rum,25ml apricot brandy,15ml vanilla syrup,25ml passionfruit juice,20ml lemon juice,soda top","['sweet', 'carbonated', 'herbal', 'floral', 'citrusy', 'sour', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet', 'fruity', 'vanilla', 'sweet']",['rum'],light
+Tequila Sunrise,"50ml tequila,75ml orange juice,15ml grenadine","['herbal', 'spicy', 'citrusy', 'sweet', 'fruity', 'sweet']",['tequila'],light
+John Collins,"50ml london dry gin,25ml lemon juice,15ml gomme,top soda","['floral', 'herbal', 'spicy', 'carbonated', 'citrusy', 'sour', 'sweet']",['gin'],light
+Dubonnet,"40ml gin,20ml dubonnet","['floral', 'herbal', 'spicy', 'sweet', 'herbal', 'spicy']",['gin'],heavy
+Sex On The Beach,"35ml vodka,15ml peach schnapps,50ml cranberry juice,50ml orange juice","['citrusy', 'sweet', 'sweet', 'fruity', 'sour', 'bitter', 'sweet', 'fruity']",['vodka'],light
+Lemon Drop,"35ml vodka,15ml triple sec,25ml lemon juice,15ml gomme","['citrusy', 'sweet', 'citrusy', 'sour', 'sweet']",['vodka'],light
+Bijou,"35ml gin,20ml chartreuse,25ml sweet vermouth,2 dashes orange bitters","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'floral', 'herbal', 'spicy', 'bitter']",['gin'],heavy
+Whiskey Mac,"40ml islay single malt,20ml ginger wine","['spicy', 'smoky', 'vanilla', 'caramel', 'spicy']","['whiskey', 'wine']",heavy
+Martinez,"50ml genever,25ml sweet vermouth,15ml dry vermouth,10ml orange curacao,dash angostura bitters","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'floral', 'herbal', 'bitter']",['gin'],heavy
+Calvados Old Fashioned,"50ml calvados,10ml honey & cinnamon syrup,2 dash bitters","['spicy', 'smoky', 'vanilla', 'caramel', 'spicy', 'bitter', 'sweet']",['whiskey'],light
+Blood & Sand,"20ml scotch,20ml sweet vermouth,20ml cherry heering liqueur,20ml orange juice","['spicy', 'smoky', 'vanilla', 'caramel', 'sweet', 'spicy', 'herbal', 'bitter', 'citrusy', 'sweet', 'sweet', 'fruity']",['whiskey'],light
+Red Snapper,"50ml vodka,100ml tomato juice,7.5ml lemon juice,3 dashes tabasco sauce,8 dashes worcestershire sauce,pinch celery salt,pinch black pepper","['citrusy', 'sour', 'spicy', 'herbal', 'spicy', 'spicy', 'sour', 'salty']",['vodka'],light
+Boulevardier,"25ml bourbon whiskey,25ml campari,25ml sweet vermouth,garnish: flamed orange","['spicy', 'smoky', 'vanilla', 'caramel', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'citrusy']",['whiskey'],heavy
+Bees Knees,"50ml gin,20ml lemon juice,15ml honey syrup","['floral', 'herbal', 'spicy', 'citrusy', 'sour', 'sweet']",['gin'],light
+Rusty Nail,"40ml scotch,20ml drambuie","['spicy', 'smoky', 'vanilla', 'caramel', 'sweet', 'spicy', 'herbal', 'smoky', 'caramel', 'vanilla']",['whiskey'],heavy
+Gin Rickey,"50ml gin,3 lime wedges squeezed,top soda","['floral', 'herbal', 'spicy', 'carbonated', 'citrusy', 'sour']",['gin'],light
+Rum Old Fashioned,"40ml aged rum,15ml velvet falernum,3 dash bitters,5ml demerara sugar","['sweet', 'sweet', 'spicy', 'citrusy', 'bitter']",['rum'],heavy
+Caiprioska,"50ml vodka,5 lime wedges,15ml gomme","['citrusy', 'sour', 'sweet']",['vodka'],light
+Jungle Bird,"35ml dark rum,15ml campari,50ml pineapple juice,15ml lime juice,10ml gomme","['sweet', 'caramel', 'smoky', 'bitter', 'citrusy', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet', 'fruity', 'sweet']",['rum'],light
+Brooklyn,"50ml rye whiskey,10ml dry vermouth,10ml amer picon,10ml maraschino","['spicy', 'smoky', 'vanilla', 'caramel', 'floral', 'herbal', 'bitter', 'citrusy', 'herbal', 'bitter', 'fruity', 'sour']",['whiskey'],heavy
+Sangria,"1 bottle of dry rose or red wine,75ml triple sec,50ml brandy,25ml gomme,50ml fresh orange juice (the fresher the better)","['citrusy', 'sweet', 'citrusy', 'sweet', 'sweet']",['wine'],light
+Navy Grog,"20ml white rum,20ml dark rum,20ml demerara rum,20ml lime juice,20ml grapefruit juice,15ml honey syrup,top soda","['sweet', 'caramel', 'smoky', 'carbonated', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet']",['rum'],light
+Hot Buttered Rum,"1 tablespoon butter,10ml vanilla sugar syrup,pinch on cinnamon, nutmeg & allspice,35ml aged rum,top hot water","['sweet', 'creamy', 'spicy', 'vanilla', 'sweet']",['rum'],light
+Bronx,"50ml gin,10ml sweet vermouth,10ml dry vermouth,30ml fresh orange juice","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'floral', 'herbal', 'citrusy', 'sweet']",['gin'],heavy
+Irish Coffee,"50ml irish whiskey (sub out for variations),15ml demerara sugar syrup,top to 1cm under the rim with fresh coffee,layer 1cm whipped cream","['spicy', 'smoky', 'vanilla', 'caramel', 'creamy', 'caramel', 'sweet']","['whiskey', 'coffee']",light
+Grasshopper,"25ml peppermint liqueur,25ml creme de cacao,75ml half & half (1:1 cream/milk)","['herbal', 'creamy', 'spicy', 'herbal']",[],light
+Corpse Reviver No2,"25ml gin,25ml lillet,25ml triple sec,5ml absinthe,25ml lemon juice","['floral', 'herbal', 'spicy', 'citrusy', 'sweet', 'sweet', 'fruity', 'citrusy', 'floral', 'citrusy', 'sour']","['gin', 'wine', 'absinthe']",light
+Hurricane,"25ml dark rum,25ml light rum,50ml passionfruit juice,25ml orange juice,15ml lime juice,10ml grenadine syrup,10ml gomme syrup","['sweet', 'fruity', 'caramel', 'smoky', 'citrusy', 'sweet', 'fruity', 'sweet', 'citrusy', 'sour', 'citrusy', 'sour', 'sweet']",['rum'],light
+Sidecar,"30ml brandy,30ml triple sec,30ml lemon juice","['citrusy', 'sweet', 'citrusy', 'sour']",[],light
+Batida,"50ml cachaça,60ml fruit puree,15ml lime juice,25ml condensed milk","['sweet', 'herbal', 'fruity', 'creamy', 'creamy', 'sweet', 'citrusy', 'sour', 'sweet', 'fruity']",[],light
+Champagne,"10ml cognac,1 brown sugar cube,2 dashes angostura bitters,top champagne","['fruity', 'sweet', 'spicy', 'caramel', 'vanilla', 'bitter', 'sweet']","['brandy', 'champagne']",heavy
+Southside,"50ml gin,25ml lemon juice,15ml gomme,6 mint leaves","['floral', 'herbal', 'spicy', 'herbal', 'citrusy', 'sour', 'sweet']",['gin'],light
+Mimosa,"50ml fresh orange juice,top sparkling wine","['citrusy', 'sweet']",['wine'],light
+Penicillin,"40ml scotch,15ml ginger liqueur,15ml islay whiskey,20ml lemon juice,10ml honey","['spicy', 'smoky', 'vanilla', 'caramel', 'spicy', 'citrusy', 'sour', 'sweet']",['whiskey'],light
+El Diablo,"35ml reposado tequila,15ml cassis,15ml lime juice,60ml ginger beer","['herbal', 'spicy', 'sweet', 'fruity', 'carbonated', 'spicy', 'citrusy', 'sour']",['tequila'],light
+Gibson,"60ml gin,10ml dry vermouth","['floral', 'herbal', 'spicy', 'floral', 'herbal']",['gin'],heavy
+Ramos Gin Fizz,"50ml gin,10ml lime juice,10ml lemon juice,20ml gomme,3 drops orange flower extract,3 drops vanilla extract,1 egg white,20ml half & half,top soda","['floral', 'herbal', 'spicy', 'carbonated', 'creamy', 'citrusy', 'sour', 'vanilla', 'sweet']","['gin', 'egg white']",light
+Singapore Sling,"25ml gin,10ml grand marnier,10ml maraschino liqueur,10ml benedictine,40ml pineapple juice,20ml lime juice,1 dash angostura bitters,top soda","['floral', 'herbal', 'spicy', 'fruity', 'sweet', 'spicy', 'caramel', 'vanilla', 'citrusy', 'bitter', 'bitter', 'fruity', 'sour', 'floral', 'herbal', 'citrusy', 'sweet', 'spicy', 'carbonated', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet', 'fruity', 'bitter']","['gin', 'brandy']",heavy
+Pina Colada,"50ml golden rum,50ml pineapple juice,35ml coconut milk,15ml lime juice","['sweet', 'creamy', 'creamy', 'sweet', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet', 'fruity', 'sweet', 'creamy', 'nutty']",['rum'],light
+Mint Julep,"50ml bourbon,15ml gomme,8 mint leaves","['spicy', 'smoky', 'vanilla', 'caramel', 'herbal', 'sweet']",['whiskey'],light
+Blue Blazer,"60ml cask strength whiskey (55% +),10ml demerara sugar syrup,40ml boiling water","['spicy', 'smoky', 'vanilla', 'caramel', 'sweet']",['whiskey'],light
+Breakfast Martini,"50ml gin,15ml triple sec,15ml lemon juice,1 teaspoon marmalade (stir with lemon juice)","['floral', 'herbal', 'spicy', 'citrusy', 'sweet', 'citrusy', 'sour']",['gin'],light
+Hot Toddy,"50ml whiskey,10ml lemon juice,10ml honey,2 cloves,1 cinnamon stick,pinch nutmeg,60ml hot water","['spicy', 'smoky', 'vanilla', 'caramel', 'citrusy', 'sour', 'spicy', 'sweet']",['whiskey'],light
+Clover Club,"50ml gin,10ml fresh lemon juice,10ml grenadine,10ml sweet vermouth,5 raspberries,egg white","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'fruity', 'sweet', 'creamy', 'citrusy', 'sour', 'sweet', 'fruity']","['gin', 'egg white']",heavy
+Zombie,"25ml golden rum,25ml dark rum,25ml triple sec,15ml lime juice,40ml orange juice,25ml passionfruit puree,7.5ml grenadine,2 dashes angostura bitters","['sweet', 'caramel', 'smoky', 'citrusy', 'sweet', 'citrusy', 'sweet', 'fruity', 'sweet', 'citrusy', 'sour', 'citrusy', 'sour', 'sweet', 'fruity', 'bitter']",['rum'],heavy
+Americano,"45ml campari,45ml sweet vermouth,top soda","['sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'citrusy', 'carbonated']",[],light
+Cubre Libre,"50ml rum,3 wedges lime squeezed,top coca-cola","['sweet', 'sweet', 'carbonated', 'caramel', 'citrusy', 'sour']",['rum'],light
+Seabreeze,"50ml vodka,50ml cranberry juice,25ml grapefruit juice","['sweet', 'fruity', 'sour', 'bitter', 'sweet', 'fruity']",['vodka'],light
+Anejo Highball,"35ml golden rum,15ml triple sec,10ml lime juice,1 dash angostura bitters,top ginger beer","['sweet', 'citrusy', 'sweet', 'carbonated', 'spicy', 'citrusy', 'sour', 'bitter']",['rum'],light
+Aviation,"50ml gin,10ml maraschino liqueur,7.5ml violet liqueur,20ml lemon juice","['floral', 'herbal', 'spicy', 'bitter', 'fruity', 'sour', 'citrusy', 'sour', 'sweet', 'floral']",['gin'],light
+Rum Swizzle,"50ml rum,15ml velvet falernum,20ml lime juice,10ml demerara sugar syrup,1 dash angostura bitters","['sweet', 'sweet', 'spicy', 'citrusy', 'citrusy', 'sour', 'bitter', 'sweet']",['rum'],light
+Planter's Punch,"50ml dark rum,20ml lime juice,15ml gomme,3 dashes angostura bitters,top soda","['sweet', 'caramel', 'smoky', 'carbonated', 'citrusy', 'sour', 'bitter', 'sweet']",['rum'],light
+Bramble,"50ml gin,25ml fresh lemon juice,10ml sugar syrup,10ml blackberry liqueur","['floral', 'herbal', 'spicy', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet']",['gin'],light
+French 75,"15ml gin,7.5ml lemon juice,5ml gomme,top champagne","['floral', 'herbal', 'spicy', 'citrusy', 'sour', 'sweet']","['gin', 'champagne']",light
+White Russian,"25ml vodka,25ml coffee liqueur,75ml half/half (1:1 milk/cream)","['creamy', 'caramel']","['vodka', 'coffee']",light
+Elderflower Collins,"40ml gin,15ml elderflower liqueur,10ml gomme,4 lime wedges,top soda","['floral', 'herbal', 'spicy', 'floral', 'sweet', 'carbonated', 'citrusy', 'sour', 'sweet']",['gin'],light
+Gimlet,"60ml gin,20ml lime juice,10ml gomme syrup","['floral', 'herbal', 'spicy', 'citrusy', 'sour', 'sweet']",['gin'],light
+Pisco Sour,"50ml pisco,2ml lime juice,10ml gomme,1 egg white","['fruity', 'sweet', 'spicy', 'caramel', 'vanilla', 'creamy', 'citrusy', 'sour', 'sweet']","['brandy', 'egg white']",light
+Tom Collins,"50ml gin,20ml lemon juice,15ml simple syrup,150ml soda water","['floral', 'herbal', 'spicy', 'carbonated', 'citrusy', 'sour', 'sweet']",['gin'],light
+Long Island Iced Tea,"10ml vodka,10ml tequila,10ml rum,10ml orange liqueur,10ml gin,100ml cola","['sweet', 'floral', 'herbal', 'spicy', 'herbal', 'spicy', 'citrusy', 'sweet', 'sweet', 'carbonated', 'caramel']","['gin', 'rum', 'vodka', 'tequila']",heavy
+Kir Royale,"110ml champagne,15ml crème de cassis","['sweet', 'fruity', 'creamy']",['champagne'],light
+Sazerac,"40 rye whiskey,20ml cognac,1 brown sugar cube,3 dashes of peychaud’s bitters","['spicy', 'smoky', 'vanilla', 'caramel', 'fruity', 'sweet', 'spicy', 'caramel', 'vanilla', 'bitter', 'sweet']","['whiskey', 'brandy']",heavy
+Pimm's Cup,"50ml pimm’s no.1 cup,125ml lemonade,5 mint leaves,2 slices of orange,2 slices of apple,2 slices of cucumber,1 strawberry (cut in quarters)","['citrusy', 'sweet', 'herbal', 'herbal', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet', 'fruity']",[],light
+Cosmopolitan,"30ml vodka,20ml triple sec,60ml cranberry juice,10ml lime juice,2 dashes orange bitters","['citrusy', 'sweet', 'sweet', 'fruity', 'sour', 'bitter', 'citrusy', 'sour', 'bitter']",['vodka'],light
+Bellini,"100ml prosecco,25ml peach puree","['fruity', 'floral', 'citrusy', 'carbonated', 'sweet', 'fruity']",['wine'],light
+Vesper Martini,"40ml gin,10ml vodka,5ml lillet","['floral', 'herbal', 'spicy', 'sweet', 'fruity', 'citrusy', 'floral']","['gin', 'wine', 'vodka']",heavy
+Hemingway Daiquiri,"35ml white rum,15ml maraschino liqueur,20ml lime juice,60ml grapefruit juice,10ml gomme","['sweet', 'bitter', 'fruity', 'sour', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet']",['rum'],light
+Trader Vic Mai Tai,"25ml gold rum,25ml dark rum,15ml triple sec,15ml orgeat syrup,25ml lime juice","['sweet', 'caramel', 'smoky', 'citrusy', 'sweet', 'citrusy', 'sour', 'sweet']",['rum'],light
+Paloma,"50ml reposado tequila,25ml pink grapefruit juice,15ml lime juice,5ml agave syrup,top grapefruit soda","['herbal', 'spicy', 'carbonated', 'citrusy', 'sour', 'sweet', 'fruity', 'sweet']",['tequila'],light
+Tommy's Margarita,"50ml reposado tequila,25ml lime juice,15ml agave syrup","['herbal', 'spicy', 'citrusy', 'sour', 'sweet']",['tequila'],light
+Bloody Mary,"50ml vodka,80ml tomato juice,15ml lemon juice,15ml worcester sauce,5 dashes tabasco sauce,2 pinches of celery salt,2 pinches onion salt,2 pinches of black pepper","['citrusy', 'sour', 'spicy', 'herbal', 'spicy', 'spicy', 'sour', 'salty']",['vodka'],light
+Vodka Martini,"50ml vodka,5ml dry vermouth","['floral', 'herbal']",['vodka'],heavy
+Amaretto Sour,"50ml amaretto liqueur,25ml lemon juice,15ml simple syrup,egg white","['sweet', 'nutty', 'creamy', 'citrusy', 'sour', 'sweet']",['egg white'],light
+Caipirinha,"60ml cachaça,4-6 wedges of fresh lime,10ml simple syrup","['sweet', 'herbal', 'fruity', 'citrusy', 'sour', 'sweet']",[],light
+Manhattan,"50ml whiskey,20ml sweet vermouth,1 dash of angostura bitters","['spicy', 'smoky', 'vanilla', 'caramel', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter']",['whiskey'],heavy
+Moscow Mule,"50ml vodka,15ml lime juice,150ml ginger beer,3 dashes of angostura bitters","['carbonated', 'spicy', 'citrusy', 'sour', 'bitter']",['vodka'],light
+French Martini,"25ml vodka,25ml chambord,50ml pineapple juice","['sweet', 'fruity', 'sweet', 'fruity', 'sweet', 'fruity', 'vanilla']",['vodka'],light
+Whiskey Sour,"50ml whiskey (we recommend a bourbon),25ml lemon juice,15ml simple syrup,1 egg white,3 dashes of angostura bitters","['spicy', 'smoky', 'vanilla', 'caramel', 'creamy', 'citrusy', 'sour', 'bitter', 'sweet']","['whiskey', 'egg white']",light
+Dark 'n' Stormy,"50ml gosling’s black seal rum,15ml lime juice,top ginger beer,3 dashes of angostura bitters","['sweet', 'carbonated', 'spicy', 'citrusy', 'sour', 'bitter']",['rum'],light
+Martini,"50ml gin,5ml dry vermouth","['floral', 'herbal', 'spicy', 'floral', 'herbal']",['gin'],heavy
+Margarita,"35ml reposado tequila,15ml orange liqueur,30ml lime juice,5ml simple syrup","['herbal', 'spicy', 'citrusy', 'sweet', 'citrusy', 'sour', 'sweet']",['tequila'],light
+Mojito,"50ml rum,15ml lime juice,10ml simple syrup,50ml soda water,5 mint leaves","['sweet', 'herbal', 'carbonated', 'citrusy', 'sour', 'sweet']",['rum'],light
+Daiquiri,"50ml rum,35ml lime juice,15ml simple syrup","['sweet', 'citrusy', 'sour', 'sweet']",['rum'],light
+Aperol Spritz,"30ml aperol,60ml prosecco,30ml soda water","['sweet', 'herbal', 'citrusy', 'bitter', 'fruity', 'floral', 'citrusy', 'carbonated', 'carbonated']",['wine'],light
+Negroni,"25ml gin,25ml sweet vermouth,25ml campari","['floral', 'herbal', 'spicy', 'sweet', 'spicy', 'herbal', 'bitter', 'bitter', 'citrusy']",['gin'],heavy
+Pornstar Martini,"40ml vodka,15ml passionfruit liqueur,15ml vanilla gomme,10ml lime juice,20ml passionfruit puree,50ml champagne","['citrusy', 'sour', 'citrusy', 'sour', 'sweet', 'fruity', 'vanilla', 'sweet']","['vodka', 'champagne']",light
+Espresso Martini,"25ml vodka,25ml coffee liqueur,50ml fresh espresso coffee,5ml simple syrup (optional)","['caramel', 'sweet']","['vodka', 'coffee']",light
+Old Fashioned,"50ml bourbon,3 dashes of angostura bitters,1 brown sugar cube","['spicy', 'smoky', 'vanilla', 'caramel', 'bitter', 'sweet']",['whiskey'],heavy
