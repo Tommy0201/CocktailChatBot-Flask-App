@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a25959; /* Set background color */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Make the body take up the full height of the viewport */
+}
+
+#wrapper {
+    max-width: 800px; /* Set maximum width for the chat interface */
+    width: 100%; /* Ensure the chat interface takes up the full width of the viewport */
+    position:relative;
+}
+
+#intro {
+    text-align: center; /* Center the text */
+    background-color:#450e0e; /* Set background color to blue */
+    color: #fff; /* Set text color to white */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    position: absolute; /* Position the element absolutely */
+    top: 0; /* Align to the top of the wrapper */
+    left: 0; /* Align to the left of the wrapper */
+    right: 0; /* Align to the right of the wrapper */
+}
+
+#conversation {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f6dfdf; /* Set conversation background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Add scrollbar when content exceeds container height */
+    height: 400px; /* Set max height for conversation */
+}
+
+.user-message,
+.bot-message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    max-width: 40%; /* Set maximum width to 40% */
+    word-wrap: break-word;
+    clear: both; /* Ensure each block starts on a new line */
+}
+
+.user-message {
+    background-color: #3979be; /* Set user message background color to blue */
+    color: #fff; /* Set user message text color to white */
+    float: right;
+}
+
+.bot-message {
+    background-color: #dc3c4b; /* Set bot message background color to red */
+    color: #fff; /* Set bot message text color to white */
+    float: left;
+}
+
+#message-form {
+    margin: 20px auto; /* Center the message form horizontally */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 844px;
+    background-color:#f6dfdf
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f6dfdf;
+}
+
+.button-wrapper {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    background-color: #f6dfdf;
+
+}
+
+button[type="submit"] {
+    padding: 10px 15px 10px 0px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #f6dfdf;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

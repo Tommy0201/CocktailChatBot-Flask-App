@@ -17,12 +17,14 @@ cocktail_data = load_json("history_cocktails.json")
 cocktail_names = list(cocktail_data.keys())
 
 def get_response(input_string):
+
     split_message = re.findall(r'\b\w+\b', input_string.lower())
     score_list = []
     cocktailss = []
     cocktail_check = {name:len(name.split()) for index,name in enumerate(cocktail_names)}
     names_tracker = list(cocktail_data.keys())
     names_tracker = [x.lower() for x in names_tracker]
+    print(cocktail_check)
 
     # Detect the names of cocktail being asked
     for word in split_message:
@@ -62,10 +64,15 @@ def get_response(input_string):
         #Recommend cocktails
         n = len(response_data[best_index]["bot_response"])
         default_ans = response_data[best_index]["bot_response"][random.randrange(n)]
-        if response_data[best_index]["response_type"] == "job":
-            return(f"Bot: {default_ans}\n1) ingredients in a specific cocktail\n2) taste of a specific cocktail\n3) heaviness/lightness of a cocktail or comparing the weight among different given cocktails\n4) history of a specific cocktail\n5) cocktail recommendations.")
+        if response_data[best_index]["response_type"] == "job": 
+            return(f"""{default_ans}
+                   1) ingredients in a specific cocktail
+                   2) taste of a specific cocktail
+                   3) heaviness/lightness of a cocktail or comparing the weight among different given cocktails
+                   4) history of a specific cocktail
+                   5) cocktail recommendations.""")  #Bot
         elif response_data[best_index]["response_type"] == "recommendation":
-            print(f"Bot: {default_ans}")
+            print(f"{default_ans}") #Bot
             return recommend_cocktails() 
         #Check ingredients in cocktails
         elif response_data[best_index]["response_type"] == "check":
@@ -88,16 +95,16 @@ def get_response(input_string):
                             break
                     if not found_match and not found_submatch:
                         ans = response_data[best_index]["bot_response_neg"][random.randrange(len(response_data[best_index]["bot_response_neg"]))]
-                        out = "Bot: " + ans
+                        out = ans   #Bot
                         return out
                 ans1 = response_data[best_index]["bot_response_pos"][random.randrange(len(response_data[best_index]["bot_response_pos"]))]
-                out1 = "Bot: " + ans1
+                out1 = ans1  #Bot
                 return out1
          #Taste of cocktails   
         elif response_data[best_index]["response_type"] == "taste":
             if cocktailss:
                 ans = ""
-                print(f"Bot: {default_ans}")
+                print(f"{default_ans}")  #Bot
                 for cocktail in cocktailss:
                     if cocktail!="":
                         taste_output = set(cocktail_data[cocktail]["Taste"])
@@ -108,7 +115,7 @@ def get_response(input_string):
         elif response_data[best_index]["response_type"] == "ingredients":
             if cocktailss:
                 ans = ""
-                print(f"Bot: {default_ans}")
+                print(f"{default_ans}")  #Bot
                 for cocktail in cocktailss:
                     if cocktail!="":
                         out =', '.join(cocktail_data[cocktail]["Ingredients"])
@@ -120,26 +127,24 @@ def get_response(input_string):
                 cocktail = cocktailss[0]
                 if cocktail_data[cocktail]["Weight"].lower()== "heavy":
                     ans = response_data[best_index]["bot_response_pos"][random.randrange(len(response_data[best_index]["bot_response_pos"]))]
-                    out = "Bot: " + ans
-                    return out
+                    return ans
                 else: 
                     ans = response_data[best_index]["bot_response_neg"][random.randrange(len(response_data[best_index]["bot_response_neg"]))]
-                    out = "Bot: " + ans
-                    return out
+                    return ans
 
             elif len(cocktailss) == 2:
                 cocktail1, cocktail2 =  cocktailss[0], cocktailss[1]
                 weight1, weight2 = cocktail_data[cocktail1]["Weight"].lower(),cocktail_data[cocktail2]["Weight"].lower()
                 if weight1 == "heavy":
                     if weight2 == "heavy":
-                        return "Bot: Both is heavy as far as I know."
+                        return "Both is heavy as far as I know."  #Bot
                     else:
-                        return (f"Bot: {cocktail1} is the heavier")
+                        return (f"{cocktail1} is the heavier")  #Bot
                 else:
                     if weight2 == "heavy":
-                        return (f"Bot: {cocktail2} is the heavier")
+                        return (f"{cocktail2} is the heavier")  #Bot
                     else:
-                        return "Bot: Both is light according to my data"
+                        return "Both is light according to my data"  #Bot
             elif len(cocktailss) >=3: 
                 heavy_lst = "Heavy: "
                 light_lst = "Light: "
@@ -149,16 +154,16 @@ def get_response(input_string):
                         heavy_lst += f"{cocktail} "
                     else:
                         light_lst += f"{cocktail} "   
-                return f"Bot: Here is what I can tell you based on my data:\n{heavy_lst}\n{light_lst}" 
+                return f"Here is what I can tell you based on my data:\n{heavy_lst}\n{light_lst}"  #Bot
             elif len(cocktailss) ==0:
                 if "heaviest" in split_message or "lightest" in split_message:
-                    return "Bot: I do not have data about the heaviest or lightest drink."
+                    return "I do not have data about the heaviest or lightest drink."  #Bot
             
         #The history of cocktails
         elif response_data[best_index]["response_type"] == "history":
             if not cocktailss:
                 if "when" not in split_message:
-                    specific = input("Bot: Please give me a specific name of a cocktail:\n")
+                    specific = input("Please give me a specific name of a cocktail:\n")  #Bot
                     for x in cocktail_names:
                         if x.lower() == specific.lower():
                             out = cocktail_data[x]["History"]
@@ -169,7 +174,7 @@ def get_response(input_string):
                     return "There is no such cocktail in my data"   
             else:   
                 ans = ""
-                print(f"Bot: {default_ans} {cocktailss[0]}")
+                print(f"{default_ans} {cocktailss[0]}")   #Bot
                 for cocktail in cocktailss:
                     if cocktail!="":
                         history_output = cocktail_data[cocktail]["History"]
@@ -178,12 +183,9 @@ def get_response(input_string):
             
         #Exit the program                
         elif response_data[best_index]["response_type"] =="quit":
-            print(f"Bot: {default_ans}")
+            print(f"{default_ans}")  #Bot
             exit()
         else:
             return default_ans
     return default_responses.random_string()
 
-# while True:
-#     user_input = input("You: ")
-#     print(get_response(user_input))
