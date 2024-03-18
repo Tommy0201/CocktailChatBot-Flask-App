@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <link rel="stylesheet" href="../static/style.css"/>
-
-    <title>Cocktail hatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&family=Noto+Sans+Khojki&display=swap" rel="stylesheet">
+    <title>Cocktail Chatbot</title>
+    <script>
+      // Function to scroll the conversation to the bottom
+      function scrollToBottom() {
+        var conversationDiv = document.getElementById('conversation');
+        conversationDiv.scrollTop = conversationDiv.scrollHeight;
+      }
+  
+      // Automatically scroll to bottom on page load
+      window.onload = scrollToBottom;
+  
+      // Scroll to bottom after each message submission
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var form = document.getElementById('message-form');
+        form.addEventListener('submit', function() {
+          setTimeout(scrollToBottom, 100);
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="intro">Cocktail Chatbot</div>

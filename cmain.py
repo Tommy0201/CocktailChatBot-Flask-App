@@ -24,8 +24,6 @@ def get_response(input_string):
     cocktail_check = {name:len(name.split()) for index,name in enumerate(cocktail_names)}
     names_tracker = list(cocktail_data.keys())
     names_tracker = [x.lower() for x in names_tracker]
-    print(cocktail_check)
-
     # Detect the names of cocktail being asked
     for word in split_message:
         for drink in cocktail_names:  
@@ -189,3 +187,6 @@ def get_response(input_string):
             return default_ans
     return default_responses.random_string()
 
+# while True:
+#     user = input("User: ")
+#     print(f"Bot: {get_response(user)}")

@@ -81,4 +81,3 @@ Numer of suggestions (max 10): """)
         continue_input = input("Bot: Would you want another recommendation? (yes/no): ").lower()
         if continue_input!='yes':
             break
-

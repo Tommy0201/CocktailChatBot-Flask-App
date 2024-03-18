@@ -13,11 +13,14 @@ characteristics = ['sweet', 'sour','bitter','spicy','salty','citrusy','floral','
 
 df = pd.read_csv("recommend_sys/robust_cocktail_3.csv",converters={"Taste":literal_eval,"Ingredient_Break_Down":literal_eval})
 
+df["combined"] = df.apply(lambda x: x["Ingredient_Break_Down"] + x["Taste"], axis=1)
+df["combined"] = df["combined"].apply(lambda x: list(x))
 
-df["combined"] = [[] for _ in range(len(df))]
 
-for i in range(len(df["Taste"])):
-    df["combined"][i] = df["Ingredient_Break_Down"][i] + df["Taste"][i]
+# df["combined"] = [[] for _ in range(len(df))]
+
+# for i in range(len(df["Taste"])):
+#     df["combined"][i] = df["Ingredient_Break_Down"][i] + df["Taste"][i]
 
 
 df["counter"] = [Counter(comb) for comb in df["combined"]]
@@ -33,6 +36,6 @@ def vectorize(dfr):
     return vector
 
 df["vector"] = df.apply(vectorize, axis = 1)
-df.to_csv('recommend_sys/vectorized_cocktail_data_4.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, index=False)
-
+print(type(df['combined'][1]))
+df.to_csv('recommend_sys/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, index=False)
 
