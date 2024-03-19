@@ -1,23 +1,12 @@
 import json
 import re
-import default_responses
 from recommend_sys.input2 import recommend_cocktails
-import random
-import pandas as pd
-from ast import literal_eval
-from collections import Counter
-import numpy as np
-import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
-from ast import literal_eval
-from numpy.linalg import norm
-import csv
 
-def get_response(input_string,layer,ques_type):
-    def load_json(file, encoding='utf-8'):
-        with open(file, encoding='utf-8') as bot_responses:
-            print(f"Loaded '{file}' successfully!")
-            return json.load(bot_responses)
+def get_response(input_string,layer,ques_type,cocktail_data):
+    # def load_json(file, encoding='utf-8'):
+    #     with open(file, encoding='utf-8') as bot_responses:
+    #         print(f"Loaded '{file}' successfully!")
+    #         return json.load(bot_responses)
         #GREETING, NAMNIG, JOB, QUIT
     default_ans = """Please press:
                 <span style="color: yellow;">0</span> for cocktail recommendations
@@ -49,7 +38,7 @@ def get_response(input_string,layer,ques_type):
     if layer == 1 and (ques_type=="ingredient" or ques_type=="taste" or ques_type=="weight" or ques_type=="history"):
     # FIND AND CHECK A COCKTAIL
         split_message = re.findall(r'\b\w+\b', input_string.lower())
-        cocktail_data = load_json("history_cocktails.json")
+        # cocktail_data = load_json("history_cocktails.json")
         cocktail_names = list(cocktail_data.keys())
         cocktailss = []
         cocktail_check = {name:len(name.split()) for index,name in enumerate(cocktail_names)}

@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from ast import literal_eval
-from numpy.linalg import norm
 import csv
 
 def recommend_cocktails(input_string,layer,type):

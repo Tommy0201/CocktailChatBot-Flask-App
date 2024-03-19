@@ -1,11 +1,17 @@
 from flask import Flask, render_template, request
 from cmain3 import get_response
+import json
 
 app = Flask(__name__)
 layer = 0
 ques_type=""
 
 conversation = []
+cached_cocktail_data={}
+with open("history_cocktails.json", encoding='utf-8') as bot_responses:
+    cached_cocktail_data = json.load(bot_responses)
+
+
 @app.route('/')
 def index():
     global conversation
@@ -26,7 +32,7 @@ def chat():
     global layer
     global ques_type
     user_input = request.form['user_input']
-    system_response, layer,ques_type = get_response(user_input, layer,ques_type)
+    system_response, layer,ques_type = get_response(user_input, layer,ques_type,cached_cocktail_data)
     print(f"layer:{layer}")
     print(f"question type: {ques_type}")
     conversation.append(("You", user_input))
