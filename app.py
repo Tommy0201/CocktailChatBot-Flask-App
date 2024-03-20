@@ -19,8 +19,14 @@ for ind,key in enumerate(cached_cocktail_data):
 
 
 @app.route('/')
+
+
 def index():
     global conversation
+    global layer 
+    global ques_type
+    layer = 0
+    ques_type = ""
     conversation.clear()
     default_system_response = """Hey, my name is Coco. I am a Cocktail Chatbot. Please enter
                                 <span style="color: yellow;">0</span> for cocktail recommendations
@@ -30,7 +36,16 @@ def index():
                                 <span style="color: yellow;">4</span> for history of a specific cocktail"""
 
     conversation.append(("System", default_system_response))
+    return render_template('index.html', conversation=conversation, cocktail_name=cocktail_name)
+
+@app.route('/read_more', methods=['POST'])
+def read_more():
+    global conversation
+    store = request.form['store']
+    conversation = conversation[:-1]
+    conversation.append(("System", store))
     return render_template('index.html', conversation=conversation)
+
 
 @app.route('/', methods=['POST'])
 def chat():
@@ -39,6 +54,11 @@ def chat():
     global ques_type
     user_input = request.form['user_input']
     system_response, layer,ques_type = get_response(user_input, layer,ques_type,cached_cocktail_data,cocktail_name)
+    if len(system_response) > 100 and ("What cocktail?" in system_response):
+        store = system_response
+        truncated_response = system_response[:100] + "..."
+        read_more_link = '<form action="/read_more" method="POST"><input type="hidden" name="store" value="' + store + '"><input type="submit" value="Read More"></form>'
+        system_response = truncated_response + read_more_link
     print(f"layer:{layer}")
     print(f"question type: {ques_type}")
     conversation.append(("You", user_input))

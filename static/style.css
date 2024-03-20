@@ -4,38 +4,38 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #a25959; /* Set background color */
+    background-color: #a25959; 
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    height: 100vh; /* Make the body take up the full height of the viewport */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 #wrapper {
-    max-width: 800px; /* Set maximum width for the chat interface */
-    width: 100%; /* Ensure the chat interface takes up the full width of the viewport */
+    max-width: 800px;
+    width: 100%;
     position:relative;
 }
 
 #intro {
-    text-align: center; /* Center the text */
-    background-color:#450e0e; /* Set background color to blue */
-    color: #fff; /* Set text color to white */
-    padding: 10px; /* Add padding */
-    border-radius: 5px; /* Add border radius */
-    position: absolute; /* Position the element absolutely */
-    top: 0; /* Align to the top of the wrapper */
-    left: 0; /* Align to the left of the wrapper */
-    right: 0; /* Align to the right of the wrapper */
+    text-align: center; 
+    background-color:#450e0e;
+    color: #fff; 
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0; 
 }
 
 #conversation {
     padding: 20px;
     border-radius: 5px;
-    background-color: #f6dfdf; /* Set conversation background color */
+    background-color: #f6dfdf;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Add scrollbar when content exceeds container height */
-    height: 400px; /* Set max height for conversation */
+    overflow-y: auto; 
+    height: 400px; 
 }
 
 .user-message,

@@ -23,12 +23,12 @@ def recommend_cocktails(input_string, layer, type):
     user_ingredients = ""
     user_taste = ""
     user_weight = ""
-    default_ans = """Please press:
-                   0 for cocktail recommendations
-                   1 for ingredients in a specific cocktail
-                   2 for taste of a specific cocktail
-                   3 for heaviness/lightness of a cocktail or comparing the weight among different given cocktails
-                   4 for history of a specific cocktail"""
+    default_ans = """Please enter:
+                                <span style="color: yellow;">0</span> for cocktail recommendations
+                                <span style="color: yellow;">1</span> for ingredients in a specific cocktail
+                                <span style="color: yellow;">2</span> for taste of a specific cocktail
+                                <span style="color: yellow;">3</span> for heaviness/lightness of a cocktail or comparing the weight among different given cocktails
+                                <span style="color: yellow;">4</span> for history of a specific cocktail"""
 
     def validate_input(user_input, valid_values):
         user_tokens = [token.strip() for token in user_input.split(',')]

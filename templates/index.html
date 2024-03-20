@@ -12,20 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Metal&family=Noto+Sans+Khojki&display=swap" rel="stylesheet">
     <title>Cocktail Chatbot</title>
-    <script>
-      function scrollToBottom() {
-        var conversationDiv = document.getElementById('conversation');
-        conversationDiv.scrollTop = conversationDiv.scrollHeight;
-      } 
-      window.onload = scrollToBottom;
-      // Scroll to bottom after each message submission
-      document.addEventListener("DOMContentLoaded", function(event) {
-        var form = document.getElementById('message-form');
-        form.addEventListener('submit', function() {
-          setTimeout(scrollToBottom, 100);
-        });
-      });
-    </script>
   </head>
   <body>
     <div id="intro">Cocktail Chatbot</div>
@@ -50,5 +36,20 @@
       {% endfor %}
     </form>
     </div>
+
+    <script>
+      function scrollToBottom() {
+        var conversationDiv = document.getElementById('conversation');
+        conversationDiv.scrollTop = conversationDiv.scrollHeight;
+      } 
+      window.onload = scrollToBottom;
+
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var form = document.getElementById('message-form');
+        form.addEventListener('submit', function() {
+          setTimeout(scrollToBottom, 100);
+        });
+      });
+    </script>
   </body>
 </html>

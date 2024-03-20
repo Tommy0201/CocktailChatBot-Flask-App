@@ -98,11 +98,9 @@ def get_response(input_string,layer,ques_type,cocktail_data, names):
                     else:
                         return "There is no history of this cocktail",0,""
         else:
-            return "Invalid cocktail(s)",0,""
-
+            return (f"""Invalid cocktail(s). {default_ans}"""),0,""
     else:
-        return (f"""Can't understand that! Please restart!
-                   {default_ans}"""), 0,""
+        return (f"""Can't understand that! {default_ans}"""), 0,""
 
 
 
