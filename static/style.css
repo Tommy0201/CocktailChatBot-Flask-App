@@ -99,3 +99,18 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #0056b3;
 }
+form {
+    margin-left:200px
+}
+input[type="submit" i] {
+    border: none;
+    background-color: #a43838;
+    color: yellow;
+
+}
+input[type="submit" i]:hover {
+    border: none;
+    color:blue;
+    text-decoration: underline;
+
+}
