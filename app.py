@@ -10,6 +10,12 @@ conversation = []
 cached_cocktail_data={}
 with open("history_cocktails.json", encoding='utf-8') as bot_responses:
     cached_cocktail_data = json.load(bot_responses)
+cocktail_name = ""
+for ind,key in enumerate(cached_cocktail_data):
+    if ind != (len(cached_cocktail_data)-1):
+        cocktail_name = cocktail_name + key + ", "
+    else:
+        cocktail_name = cocktail_name + key + " "
 
 
 @app.route('/')
@@ -32,7 +38,7 @@ def chat():
     global layer
     global ques_type
     user_input = request.form['user_input']
-    system_response, layer,ques_type = get_response(user_input, layer,ques_type,cached_cocktail_data)
+    system_response, layer,ques_type = get_response(user_input, layer,ques_type,cached_cocktail_data,cocktail_name)
     print(f"layer:{layer}")
     print(f"question type: {ques_type}")
     conversation.append(("You", user_input))

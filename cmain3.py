@@ -2,12 +2,7 @@ import json
 import re
 from recommend_sys.input2 import recommend_cocktails
 
-def get_response(input_string,layer,ques_type,cocktail_data):
-    # def load_json(file, encoding='utf-8'):
-    #     with open(file, encoding='utf-8') as bot_responses:
-    #         print(f"Loaded '{file}' successfully!")
-    #         return json.load(bot_responses)
-        #GREETING, NAMNIG, JOB, QUIT
+def get_response(input_string,layer,ques_type,cocktail_data, names):
     default_ans = """Please press:
                 <span style="color: yellow;">0</span> for cocktail recommendations
                 <span style="color: yellow;">1</span> for ingredients in a specific cocktail
@@ -22,19 +17,19 @@ def get_response(input_string,layer,ques_type,cocktail_data):
         if input_string == "1":
             layer +=1
             ques_type = "ingredient"
-            return ("What cocktail? "), layer, ques_type
+            return (f"What cocktail?\nAvailable cocktails: {names}"), layer, ques_type
         elif input_string == "2":
             layer +=1
             ques_type = "taste"
-            return "What cocktail? ", layer, ques_type
+            return (f"What cocktail?\nAvailable cocktails: {names}"), layer, ques_type
         elif input_string == "3":
             layer +=1
             ques_type = "weight"
-            return "What cocktail? ", layer, ques_type
+            return (f"What cocktail?\nAvailable cocktails: {names}"), layer, ques_type
         elif input_string == "4":
             layer +=1
             ques_type = "history"
-            return "What cocktail? ", layer, ques_type
+            return (f"What cocktail?\nAvailable cocktails: {names}"), layer, ques_type
     if layer == 1 and (ques_type=="ingredient" or ques_type=="taste" or ques_type=="weight" or ques_type=="history"):
     # FIND AND CHECK A COCKTAIL
         split_message = re.findall(r'\b\w+\b', input_string.lower())
