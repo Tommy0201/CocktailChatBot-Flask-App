@@ -71,8 +71,15 @@ def chat():
               question type: {ques_type}
               bot_cocktail: {bot_cocktails}
               """)
-        if bot_response not in ["0","1","2","3"]:
-            if ques_type != "other":
+        taste = ["bitter","spicy","sour","salty","sweet","heavy","light","strong"]
+        taste_ask = False
+        for x in taste:
+            if x in user_input.lower():
+                taste_ask = True
+                break
+        print(f"taste ask: {taste_ask}")
+        if (bot_response not in ["0","1","2","3"]):
+            if ques_type != "other" and taste_ask == False:
                 bot_response = "Invalid input! " + default_system_response                
             layer = 0 
             ques_type = ""

@@ -44,6 +44,7 @@ FOLLOW THIS INSTRUCTION:
 
 Step 1: Filling out value of "number"
     If user's answer is about cocktail recommendation ("recommend cocktail", "suggest me a cocktail", "suggest drinks", "can you recommend me a good cocktail", etc...) set value of "number" to 0
+        However, if user's answer is about cocktail recommendation and taste preference were recommended ("recommend me a cocktail that is sweet","I want to drink something light","I want to have a spicy and sour drink, can u recommend?", etc...), set value of "number" to 4 instead of 0
     If user's answer is about ingredients of a cocktail ("what is in [cocktail]?", "what does [cocktail] contain?", "what are the ingredients of [cocktail]?" etc...)  set value of "number" to 1
     If user's answer is about tastes of a drink such as ("what does [cocktail] taste like?", "the taste of [cocktail]", etc...) set value of "number" to 2
     If user's answer is about weight of a cocktail: ("how heavy is [cocktail]?", "is [cocktail] a light drink?", etc...) set value of "number" to 3

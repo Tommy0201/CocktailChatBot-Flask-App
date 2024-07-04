@@ -61,7 +61,16 @@ def response_classifier(user_response, ques_type, layer, cocktails_in_list):
         elif not cocktails_in_list and not cocktails: 
             ques_type = new_dict[intent_num]
             layer = 0
+            taste = ["bitter","spicy","sour","salty","sweet","heavy","light","strong"]
+            taste_ask = False
+            for x in taste:
+                if x in user_response.lower():
+                    taste_ask = True
+                    break
+            if taste_ask == True:
+                return bot_answer, ques_type, layer, cocktails_in_list
             return str(intent_num), ques_type, layer, cocktails_in_list
+            
         else:
             return bot_answer, ques_type, layer, cocktails_in_list
     elif intent_num == 4:   
