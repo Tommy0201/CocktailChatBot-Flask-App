@@ -62,7 +62,7 @@ Numer of suggestions (max 10): """)
         # print(f"user vector: {user_vector}")
         # print(len(user_vector))
 
-        df = pd.read_csv('recommend_sys/vectorized_cocktail_data_4.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, converters={'vector': literal_eval})
+        df = pd.read_csv('recommend_sys_util/vectorized_cocktail_data_4.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, converters={'vector': literal_eval})
 
         df['vector'] = df['vector'].apply(np.array)
 

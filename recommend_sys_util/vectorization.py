@@ -11,7 +11,7 @@ ingredients = ['whiskey','gin','rum','tequila','vodka','brandy',"champagne","win
 characteristics = ['sweet', 'sour','bitter','spicy','salty','citrusy','floral','herbal','creamy','fruity','coffee','smoky','nutty','carbonated','caramel','vanilla']
 
 
-df = pd.read_csv("recommend_sys/robust_cocktail_3.csv",converters={"Taste":literal_eval,"Ingredient_Break_Down":literal_eval})
+df = pd.read_csv("recommend_sys_util/robust_cocktail_3.csv",converters={"Taste":literal_eval,"Ingredient_Break_Down":literal_eval})
 
 df["combined"] = df.apply(lambda x: x["Ingredient_Break_Down"] + x["Taste"], axis=1)
 df["combined"] = df["combined"].apply(lambda x: list(x))
@@ -37,5 +37,5 @@ def vectorize(dfr):
 
 df["vector"] = df.apply(vectorize, axis = 1)
 print(type(df['combined'][1]))
-df.to_csv('recommend_sys/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, index=False)
+df.to_csv('recommend_sys_util/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, index=False)
 

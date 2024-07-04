@@ -1,7 +1,7 @@
 import csv 
 import json
 
-with open('recommend_sys/robust_cocktail_3.csv','r', newline='',encoding='utf-8') as f:
+with open('recommend_sys_util/robust_cocktail_3.csv','r', newline='',encoding='utf-8') as f:
     reader = csv.DictReader(f)
     df = {row['Cocktail Name']:row for row in reader}
 

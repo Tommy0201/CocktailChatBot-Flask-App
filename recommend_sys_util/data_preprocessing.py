@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("recommend_sys/robust_cocktail.csv")
+df = pd.read_csv("recommend_sys_util/robust_cocktail.csv")
 
 def add_taste_ingre(row):
     tastes = []
@@ -204,4 +204,4 @@ def add_taste_ingre(row):
 df[['Taste','Ingredient_Break_Down','Weight']] = df.apply(add_taste_ingre, axis=1)
 df["Weight"] = df["Weight"].astype(str)
 
-df.to_csv("recommend_sys/robust_cocktail_3.csv", index=False)
+df.to_csv("recommend_sys_util/robust_cocktail_3.csv", index=False)

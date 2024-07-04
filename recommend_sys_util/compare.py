@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Replace 'file1.csv' and 'file2.csv' with your file paths
-file1_path = 'recommend_sys/robust_cocktail_2.csv'
-file2_path = 'recommend_sys/robust_cocktail_3.csv'
+file1_path = 'recommend_sys_util/robust_cocktail_2.csv'
+file2_path = 'recommend_sys_util/robust_cocktail_3.csv'
 
 # Read CSV files into pandas DataFrames
 df1 = pd.read_csv(file1_path)

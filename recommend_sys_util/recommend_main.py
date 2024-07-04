@@ -7,7 +7,7 @@ import csv
 
 # Load and preprocess the cocktail data
 def load_cocktail_data():
-    df = pd.read_csv('recommend_sys/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, converters={'vector': literal_eval})
+    df = pd.read_csv('recommend_sys_util/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, converters={'vector': literal_eval})
     df['vector'] = df['vector'].apply(np.array)
     return df
 
@@ -28,7 +28,7 @@ def recommend_cocktails(input_string, layer, type):
                                 <span style="color: yellow;">1</span> for ingredients in a specific cocktail
                                 <span style="color: yellow;">2</span> for taste of a specific cocktail
                                 <span style="color: yellow;">3</span> for heaviness/lightness of a cocktail or comparing the weight among different given cocktails
-                                <span style="color: yellow;">4</span> for history of a specific cocktail"""
+                                """
 
     def validate_input(user_input, valid_values):
         user_tokens = [token.strip() for token in user_input.split(',')]
@@ -45,8 +45,7 @@ def recommend_cocktails(input_string, layer, type):
             vector.append(0)
         return np.array(vector)
 
-    if layer == 0 and input_string == "0":
-        type = "recommend"
+    if layer == 0 and type == "recommend":
         layer += 1
         ingredients_string = ', '.join(ingredients)
         return f"""
