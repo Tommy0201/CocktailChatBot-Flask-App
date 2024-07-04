@@ -16,7 +16,7 @@ def detect_intent(user_response):
         "cocktail_default": COCKTAIL_DEFAULT,
     }
     response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-0125",
         messages = [
             {"role": "system","content": DETECT_INPUT.format(**neww)},
         ],
@@ -32,7 +32,7 @@ def detect_cocktail(user_response):
         "cocktail_default": COCKTAIL_DEFAULT,
     }
     response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-0125",
         messages = [
             {"role": "system","content": DETECT_COCKTAIL.format(**neww)},
         ],

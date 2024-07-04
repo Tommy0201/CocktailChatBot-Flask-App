@@ -15,15 +15,12 @@ OUTPUT IN JSON FORMAT BELOW (NO EXPLANATION/EXTRA WORDS ALLOWED):
 
 INSTRUCTION: 
 
-Step 1:  extract the cocktail name from user's response and if it exsit, fill out the "cocktail" value. If it does not exist then return empty array for both keys "cocktail" and "cocktail_in_list"
-Step 2: check if extracted cocktail is also in the given list of cocktail. If it is then set cocktail value to be the value extracted. If not then set it to be an empty array
-
-Example 1: "B52 is a good cocktail" must output 
-{{
-    "cocktail": ["B52"],
-    "cocktail_in_list": None, 
-}}
-Explanation: "B52" is a cocktail. However "B52" is not in the list {cocktail_default}
+Step 1:  extract the cocktail name from user's response 
+    if that cocktail does exsit, fill out the "cocktail" value. 
+    If it does not exist then return empty array for values of both keys "cocktail" and "cocktail_in_list"
+Step 2: check if extracted cocktail is also in the given list of cocktail.
+    If it is then set "cocktail_in_list" value to be the value extracted. 
+    If not then set it to be an empty array
 
 Please think step by step. 
 """
@@ -43,16 +40,19 @@ Output in JSON String format below:
 FOLLOW THIS INSTRUCTION:
 
 Step 1: Filling out value of "number"
-    If user's answer is about cocktail recommendation ("recommend cocktail", "suggest me a cocktail", "suggest drinks", "can you recommend me a good cocktail", etc...) set value of "number" to 0
-        However, if user's answer is about cocktail recommendation and taste preference were recommended ("recommend me a cocktail that is sweet","I want to drink something light","I want to have a spicy and sour drink, can u recommend?", etc...), set value of "number" to 4 instead of 0
+    If user's answer is about cocktail recommendation ("recommend cocktail", "suggest me some drinks","recommend drinks", "provide me with some recommendations","suggest drinks", "can you recommend me a good cocktail", etc...) set value of "number" to 0
+        However, if user's answer is about cocktail recommendation and taste/weight/color/smell preference were included ("recommend me a cocktail that is sweet","I want to drink something light","I want to have a spicy and sour drink, can u recommend?", "I want a cocktail that looks red and smell like roses", etc...), set value of "number" to 4 instead of 0
     If user's answer is about ingredients of a cocktail ("what is in [cocktail]?", "what does [cocktail] contain?", "what are the ingredients of [cocktail]?" etc...)  set value of "number" to 1
     If user's answer is about tastes of a drink such as ("what does [cocktail] taste like?", "the taste of [cocktail]", etc...) set value of "number" to 2
     If user's answer is about weight of a cocktail: ("how heavy is [cocktail]?", "is [cocktail] a light drink?", etc...) set value of "number" to 3
     If user's answer is none of the above but it is still about cocktails ("what the history of [cocktail]?", "what is the color of [cocktail]?", "how expensive is [cocktail]?","is [cocktail] red?" etc...), set value of "number" to 4
-    Otherwise, if user's answer is irrelavant ("what is the color of the sky?", "ok", "saikasdjvp", random characters, etc...) please set the value of "number" to be -1.
+    If user's answer is about greeting ("hi","how are you", "what's up", etc...), set value of number to 4
+    Otherwise, if user's answer is irrelevant ("what is the color of the sky?", "ok", "saikasdjvp", random characters, etc...) please set the value of "number" to be -1.
 Step 2: Filling out value of "bot-answer"
-    Set value of "bot-answer" to be your own answer assuming that you are a cocktail/mixologist expert. Please only answer the question of user, do not ask follow up question.
-    if you cannot answer, set the value of "bot-answer" to be ""
+    Set value of "bot-answer" to be your own answer assuming you are a cocktail/mixologist expert. Your name is Coco.
+    Please only answer the question of user, do not ask follow up question.
+    If user answer is about greeting, ("hi","how are you", "what's up", etc...), set "bot=answer" value to be your greeting back
+    If you cannot answer, set the value of "bot-answer" to be ""
 
 Please think step by step.
 """

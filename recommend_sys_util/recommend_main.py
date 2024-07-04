@@ -99,11 +99,12 @@ Heavy or Light: """, layer, type
         counter = 1
         ans = []
         for index, row in rec_cocktails.iterrows():
+            taste_string = row['combined'].replace("[","").replace("]","").replace("'","")
             counter += 1
             ans.append(f"""
                 {counter-1}) Cocktail: {row['Cocktail Name']}
                 Ingredients: {row['Ingredients']}
-                Taste: {row['combined']}
+                Taste: {taste_string}
                 Weight: {row['Weight']}
                    """)
 

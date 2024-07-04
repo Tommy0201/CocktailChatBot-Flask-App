@@ -17,7 +17,7 @@ for ind,key in enumerate(cached_cocktail_data):
         cocktail_name = cocktail_name + key + ", "
     else:
         cocktail_name = cocktail_name + key + " "
-print(f"cocktail_name: {cocktail_name}")
+# print(f"cocktail_name: {cocktail_name}")
         
 default_system_response = """Please ask about
                             + cocktail recommendations
