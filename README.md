@@ -6,6 +6,7 @@ The other part are flask app, seeking to answer other questions such as: history
 ## How to run 
 Make sure that you have installed Flask app by running:
     pip install flask
+    
 Fill in your OpenAI API Key by creating your .env file
 
 Go to app.py and run this line in the command line
