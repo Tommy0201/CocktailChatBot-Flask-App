@@ -1,5 +1,5 @@
 import pandas as pd
-import openai
+from openai import OpenAI
 import json
 from detect_input_prompt import DETECT_INPUT, COCKTAIL_DEFAULT, DETECT_COCKTAIL
 from dotenv import load_dotenv
@@ -8,17 +8,19 @@ import os
 #Working with OPENAI API
 load_dotenv()
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+client = OpenAI(
+    api_key = os.getenv('OPENAI_API_KEY'),
+)
 
 def detect_intent(user_response):
-    neww = {
+    payload = {
         "user_response": user_response,
         "cocktail_default": COCKTAIL_DEFAULT,
     }
-    response = openai.chat.completions.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo-0125",
         messages = [
-            {"role": "system","content": DETECT_INPUT.format(**neww)},
+            {"role": "system","content": DETECT_INPUT.format(**payload)},
         ],
     )
     output = response.choices[0].message.content
@@ -27,14 +29,14 @@ def detect_intent(user_response):
     return output
 
 def detect_cocktail(user_response):
-    neww = {
+    payload = {
         "user_response": user_response,
         "cocktail_default": COCKTAIL_DEFAULT,
     }
-    response = openai.chat.completions.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo-0125",
         messages = [
-            {"role": "system","content": DETECT_COCKTAIL.format(**neww)},
+            {"role": "system","content": DETECT_COCKTAIL.format(**payload)},
         ],
     )
     output = response.choices[0].message.content
@@ -44,14 +46,28 @@ def detect_cocktail(user_response):
 
 def response_classifier(user_response, ques_type, layer, cocktails_in_list):
     c = detect_cocktail(user_response)
-    cocktail_dict = json.loads(c) 
+    try:
+        cocktail_dict = json.loads(c)
+    except json.JSONDecodeError as e:
+        print("JSON decoding failed for cocktail_dict:", e)
+        cocktail_dict = {}
     i = detect_intent(user_response)
-    intent_dict = json.loads(i)
+    try:
+        intent_dict = json.loads(i)
+    except json.JSONDecodeError as e:
+        print("JSON decoding failed for intent_dict:", e)
+        intent_dict = {}
     print("intent_dict: ",intent_dict)
-    cocktails = cocktail_dict.get("cocktail")
-    cocktails_in_list = cocktail_dict.get("cocktail_in_list")
-    intent_num = intent_dict.get("number")
-    bot_answer = intent_dict.get("bot-answer")
+    if cocktail_dict:
+        cocktails = cocktail_dict.get("cocktail")
+        cocktails_in_list = cocktail_dict.get("cocktail_in_list")
+    else:
+        cocktails, cocktails_in_list = [], []
+    if intent_dict:
+        intent_num = intent_dict.get("number")
+        bot_answer = intent_dict.get("bot-answer")
+    else:
+        intent_num, bot_answer = -1, ""
     if intent_num == 0 or intent_num == 1 or intent_num == 2 or intent_num == 3:
         new_dict= {0:"recommend",1:"ingredient",2:"taste",3:"weight"}
         if cocktails_in_list and len(cocktails_in_list) == len(cocktails):
