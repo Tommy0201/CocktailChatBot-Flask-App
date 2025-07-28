@@ -7,7 +7,7 @@ import csv
 
 # Load and preprocess the cocktail data
 def load_cocktail_data():
-    df = pd.read_csv('recommend_sys_util/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, converters={'vector': literal_eval})
+    df = pd.read_csv('/home/cocktailchatbot/CocktailChatBot-Flask-App/recommend_sys_util/vectorized_cocktail_data_5.csv', sep=',', quoting=csv.QUOTE_NONNUMERIC, converters={'vector': literal_eval})
     df['vector'] = df['vector'].apply(np.array)
     return df
 
@@ -49,7 +49,7 @@ def recommend_cocktails(input_string, layer, type):
         layer += 1
         ingredients_string = ', '.join(ingredients)
         return f"""
-Here are the ingredients: 
+Here are the ingredients:
 {ingredients_string}
 What kind of ingredients would you like? """, layer, type
 
@@ -63,7 +63,7 @@ What kind of ingredients would you like? """, layer, type
                    {default_ans}""", layer, type
         characteristics_string = ', '.join(characteristics)
         return f"""
-    Here are the taste: 
+    Here are the taste:
     {characteristics_string}
     Repeat more than once for more prevalent taste
     What kind of taste would you like? """, layer, type
