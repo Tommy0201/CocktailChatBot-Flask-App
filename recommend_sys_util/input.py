@@ -40,14 +40,14 @@ def recommend_cocktails():
     while True:
         val1 = input(f"""
 Here are the ingredients: {ingredients}
-What kind of ingredients would you like? """)
+What kind of ingredient(s) would you like? """)
 
         user_ingredients =  validate_input(val1.lower(), ingredients)
             
         val2 = input(f"""
 Here are the taste: {characteristics}
 Repeat more than once for more prevalent taste
-What kind of taste would you like? """)
+What kind of taste(s) would you like? """)
         user_taste =  validate_input(val2.lower(), characteristics)
         val3 = input("""
 Heavy or Light: """)
