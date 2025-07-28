@@ -15,20 +15,20 @@ def get_response(input_string,layer,ques_type,cocktail_data, names, bot_cocktail
         if ques_type in ["ingredient","taste","weight"]:
             layer +=1
             return (f"What cocktail?\nAvailable cocktails: {names}"), layer, ques_type, bot_cocktails
-        else: 
+        else:
             return(f"EORRRR",),layer,ques_type, bot_cocktails
     if layer == 1 and (ques_type=="ingredient" or ques_type=="taste" or ques_type=="weight"):
         if not bot_cocktails:
         # FIND AND CHECK A COCKTAIL
             split_message = re.findall(r'\b\w+\b', input_string.lower())
-            # cocktail_data = load_json("history_cocktails.json")
+            # cocktail_data = load_json("/home/cocktailchatbot/CocktailChatBot-Flask-App/history_cocktails.json")
             cocktail_names = list(cocktail_data.keys())
             cocktailss = []
             cocktail_check = {name:len(name.split()) for index,name in enumerate(cocktail_names)}
             names_tracker = list(cocktail_data.keys())
             names_tracker = [x.lower() for x in names_tracker]
             for word in split_message:
-                for drink in cocktail_names:  
+                for drink in cocktail_names:
                     i = cocktail_names.index(drink)
                     if word.lower() in names_tracker[i].split():
                         cocktail_check[drink] -= 1
@@ -86,4 +86,3 @@ def get_response(input_string,layer,ques_type,cocktail_data, names, bot_cocktail
 
 
 
-    

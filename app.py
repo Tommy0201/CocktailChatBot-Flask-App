@@ -18,7 +18,7 @@ for ind,key in enumerate(cached_cocktail_data):
     else:
         cocktail_name = cocktail_name + key + " "
 # print(f"cocktail_name: {cocktail_name}")
-        
+
 default_system_response = """Please ask about
                             + cocktail recommendations
                             + ingredients in a specific cocktail
@@ -33,7 +33,7 @@ default_system_response = """Please ask about
 
 def index():
     global conversation
-    global layer 
+    global layer
     global ques_type
     global bot_response
     global bot_cocktails
@@ -80,15 +80,15 @@ def chat():
         print(f"taste ask: {taste_ask}")
         if (bot_response not in ["0","1","2","3"]):
             if ques_type != "other" and taste_ask == False:
-                bot_response = "Invalid input! " + default_system_response                
-            layer = 0 
+                bot_response = "Invalid input! " + default_system_response
+            layer = 0
             ques_type = ""
             conversation.append(("You", user_input))
             conversation.append(("System", bot_response))
             return render_template('index.html', conversation=conversation)
     if ques_type == "recommend":
         system_response, layer,ques_type = recommend_cocktails(user_input,layer,ques_type)
-    else:        
+    else:
         system_response, layer,ques_type, bot_cocktails = get_response(user_input, layer,ques_type,cached_cocktail_data,cocktail_name,bot_cocktails)
     if len(system_response) > 100 and ("What cocktail?" in system_response):
         store = system_response
