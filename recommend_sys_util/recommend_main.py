@@ -51,7 +51,7 @@ def recommend_cocktails(input_string, layer, type):
         return f"""
 Here are the ingredients:
 {ingredients_string}
-What kind of ingredients would you like? """, layer, type
+What kind of ingredient(s) would you like? """, layer, type
 
     elif layer == 1 and type == "recommend":
         user_ingredients = validate_input(input_string.lower(), ingredients)
@@ -66,7 +66,7 @@ What kind of ingredients would you like? """, layer, type
     Here are the taste:
     {characteristics_string}
     Repeat more than once for more prevalent taste
-    What kind of taste would you like? """, layer, type
+    What kind of taste(s) would you like? """, layer, type
 
     elif layer == 2 and type == "recommend":
         user_taste = validate_input(input_string.lower(), characteristics)
